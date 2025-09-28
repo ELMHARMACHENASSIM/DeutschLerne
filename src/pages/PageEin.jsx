@@ -1,4 +1,4 @@
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import imgOne from "../assets/img/img1.jpg";
@@ -8,21 +8,32 @@ import song2 from "../assets/song/zahlen2.mp3";
 import song3 from "../assets/song/zahlen3.mp3";
 import song4 from "../assets/song/zahlen4.mp3";
 import song5 from "../assets/song/zahlen5.mp3";
-
+import bck from "../assets/img/bck.png";
 const PageEin = () => {
   return (
     <>
-      <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-        <div className="w-[90px]">
+    <div className="w-[100%] h-[100%]" style={{
+                  backgroundImage: `url(${bck})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                   
+                }}>
+         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
+        <div className="w-[100%] flex justify-between items-center">
           <Link to={"/"} className="flex  items-center gap-[10px]">
             {" "}
             <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
           </Link>
+            <Link to={"/page2"} className="flex  items-center gap-[10px]">
+            {" "}
+            <span>Sich Vorstellen</span> <FontAwesomeIcon icon={faArrowRight} /> 
+          </Link>
         </div>
-        <div className="">
+        <div className="py-[20px]">
           <div className="py-[20px]">
             <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-              buckstabiren
+             Buckstabiren und Zahlen
             </h1>
           </div>
           <div className="w-[100%] flex justify-between items-center gap-[20px]">
@@ -54,7 +65,7 @@ const PageEin = () => {
             </h1>
           </div>
 
-          <div className="w-[100%] flex justify-between items-start gap-[20px]">
+          <div className="w-[100%] flex justify-between items-start gap-[20px] bg-dark p-[30px] text-white">
             <div className="font-pR text-[25px] flex-1">
               Heute wirst du die deutschen Zahlen von 1 bis 999.999 lernen. Du
               musst nicht alle Zahlen auswendig lernen Es gibt ein System.
@@ -123,6 +134,8 @@ const PageEin = () => {
           </div>
         </div>
       </div>
+    </div>
+   
     </>
   );
 };
