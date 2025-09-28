@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer components {
+  /* frontend */
+  .Mycontainer {
+    @apply w-[85%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
+  }
+}
+@theme {
+  --color-dark: #000;
+  --color-white: #fff;
+  --color-red: #ff0000;
+  --color-yellow: #ffff00;
+  --font-ar: "ar";
+  --font-pB: "pB";
+  --font-pR: "pR";
+  --font-pL: "pL";
+}
+@font-face {
+  font-family: "pB";
+  src: url(./assets/font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "ar";
+  src: url(./assets/font/Cairo.ttf);
+}
+@font-face {
+  font-family: "pR";
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "pL";
+  src: url(./assets/font/Poppins-Light.ttf);
+}

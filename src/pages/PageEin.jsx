@@ -1,0 +1,130 @@
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router";
+import imgOne from "../assets/img/img1.jpg";
+import song from "../assets/song/dasalphabet.mp3";
+import song1 from "../assets/song/zahlen.mp3";
+import song2 from "../assets/song/zahlen2.mp3";
+import song3 from "../assets/song/zahlen3.mp3";
+import song4 from "../assets/song/zahlen4.mp3";
+import song5 from "../assets/song/zahlen5.mp3";
+
+const PageEin = () => {
+  return (
+    <>
+      <div className="Mycontainer  py-[50px] font-pB text-[20px]">
+        <div className="w-[90px]">
+          <Link to={"/"} className="flex  items-center gap-[10px]">
+            {" "}
+            <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
+          </Link>
+        </div>
+        <div className="">
+          <div className="py-[20px]">
+            <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
+              buckstabiren
+            </h1>
+          </div>
+          <div className="w-[100%] flex justify-between items-center gap-[20px]">
+            <div className="w-[600px] h-[600px]">
+              <img
+                src={imgOne}
+                alt=""
+                className="w-[100%] h-[100%] object-cover"
+              />
+            </div>{" "}
+            <div className="font-pR text-[25px] flex-1">
+              Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä, Ö,
+              Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
+              speziellen Buchstaben ä, ö, ü und ß verwirren. Wenn du Deutsch als
+              Fremdsprache lernst, werden sie dir am Anfang bestimmt
+              schwerfallen. Aber bitte glaube mir, wenn ich dir sage, dass es
+              nur eine Frage der Zeit ist, bist du dich an sie gewöhnt hast.
+              <div className="py-[25px]  text-[25px] font-pB">
+                Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp,
+                Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
+                <span className="text-red">Ää, Öö, Üü, ß</span>
+              </div>
+              <audio src={song} controls className="w-[100%] h-[90px]"></audio>
+            </div>
+          </div>
+          <div className="py-[20px]">
+            <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
+              Zahlen
+            </h1>
+          </div>
+
+          <div className="w-[100%] flex justify-between items-start gap-[20px]">
+            <div className="font-pR text-[25px] flex-1">
+              Heute wirst du die deutschen Zahlen von 1 bis 999.999 lernen. Du
+              musst nicht alle Zahlen auswendig lernen Es gibt ein System.
+              Zählen auf Deutsch ist einfach, wenn du es richtig machst!
+              <div className="py-[20px]">
+                <p className="font-pB text-[25px]">
+                  1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =
+                  sechs | 7 = sieben | 8 = acht | 9 = neun | 10 = zehn
+                </p>
+                <audio
+                  src={song1}
+                  controls
+                  className="w-[100%] h-[60px]"
+                ></audio>
+              </div>
+              <div className="py-[20px]">
+                <p className="font-pB text-[25px]">
+                  11 = elf | 12 = zwölf | 13 = dreizehn | 14 = vierzehn | 15 =
+                  fünfzehn | 16 = sechzehn | 17 = siebzehn | 18 = achtzehn | 19
+                  = neunzehn | 20 = zwanzig
+                </p>
+                <audio
+                  src={song2}
+                  controls
+                  className="w-[100%] h-[60px]"
+                ></audio>
+              </div>
+              <div className="py-[20px]">
+                <p className="font-pB text-[25px]">
+                  21 = einundzwanzig | 22 = zweiundzwanzig | 23 = dreiundzwanzig
+                  | 24 = vierundzwanzig | 25 = fünfundzwanzig
+                </p>
+                <audio
+                  src={song3}
+                  controls
+                  className="w-[100%] h-[60px]"
+                ></audio>
+              </div>
+              <div className="py-[20px]">
+                <p className="font-pB text-[25px]">
+                  30 = dreißig | 31 = einunddreißig | 32 = zweiunddreißig | 33 =
+                  dreiunddreißig
+                </p>
+                <audio
+                  src={song4}
+                  controls
+                  className="w-[100%] h-[60px]"
+                ></audio>
+              </div>
+              <div className="py-[20px]">
+                <p className="font-pB text-[25px]">
+                  40 = vierzig | 50 = fünfzig | 60 = sechzig | 70 = siebzig | 80
+                  = achtzig | 90 = neunzig | 100 = einhundert (hundert)
+                </p>
+                <audio
+                  src={song5}
+                  controls
+                  className="w-[100%] h-[60px]"
+                ></audio>
+              </div>
+             
+           
+            
+            </div>
+     
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default PageEin;
