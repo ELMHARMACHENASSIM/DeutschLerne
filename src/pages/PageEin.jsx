@@ -33,7 +33,7 @@ const PageEin = () => {
         <div className="py-[20px]">
           <div className="py-[20px]">
             <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-             Buckstabiren und Zahlen
+             Buckstaben und Zahlen
             </h1>
           </div>
           <div className="w-[100%] flex justify-between items-center gap-[20px]">
