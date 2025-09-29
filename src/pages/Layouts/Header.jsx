@@ -22,7 +22,7 @@ const Header = () => {
                 className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
               >
                 <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Buckstabiren und Zahlen
+                  Buckstaben und Zahlen
                 </span>
                 <span className="absolute top-0 left-0 w-full h-1/3 bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
                 <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
