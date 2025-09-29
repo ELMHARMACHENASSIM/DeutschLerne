@@ -16,7 +16,7 @@ const PageSechs = () => {
           {" "}
           <div className="py-[20px]">
             <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-            Die Restaurant
+           Nominativ und Akkusativ
             </h1>
           </div>
         </div>

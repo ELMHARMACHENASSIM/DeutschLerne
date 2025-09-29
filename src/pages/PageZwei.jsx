@@ -21,11 +21,11 @@ const PageZwei = () => {
             <Link to={"/page1"} className="flex  items-center gap-[10px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
-              <span>Buckstabiren und Zahlen</span>
+              <span>Buckstaben und Zahlen</span>
             </Link>
             <Link to={"/page3"} className="flex  items-center gap-[10px]">
               {" "}
-              <span>Nominativ und Akkusativ</span>{" "}
+              <span>Stammbaum</span>{" "}
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>

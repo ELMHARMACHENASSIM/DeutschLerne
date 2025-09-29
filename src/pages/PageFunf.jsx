@@ -8,19 +8,22 @@ const PageFunf = () => {
         <div className="w-[100%] flex justify-between items-center">
           <Link to={"/page4"} className="flex  items-center gap-[10px]">
             {" "}
-            <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Monate und Die wochen und Die Uhr</span>
+            <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Restaurant</span>
           </Link>
           <Link to={"/page6"} className="flex  items-center gap-[10px]">
             {" "}
-            <span> Die Restaurant</span> <FontAwesomeIcon icon={faArrowRight} />
+            <span> Nominativ und Akkusativ</span> <FontAwesomeIcon icon={faArrowRight} />
           </Link>
         </div>
         <div className="py-[20px]">
           {" "}
           <div className="py-[20px]">
             <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-              Stammbaum
+              Die Monate und Die wochen und Die Uhr
             </h1>
+          </div>
+          <div>
+            
           </div>
         </div>
       </div>

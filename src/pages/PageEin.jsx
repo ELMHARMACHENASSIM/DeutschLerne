@@ -2,7 +2,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import imgOne from "../assets/img/img1.jpg";
-import song from "../assets/song/dasalphabet.mp3";
+import song from "../assets/song/audio1.mp3";
 import song1 from "../assets/song/zahlen.mp3";
 import song2 from "../assets/song/zahlen2.mp3";
 import song3 from "../assets/song/zahlen3.mp3";
