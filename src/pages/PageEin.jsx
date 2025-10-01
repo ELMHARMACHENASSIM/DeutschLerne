@@ -2,7 +2,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import imgOne from "../assets/img/img1.jpg";
-import song from "../assets/song/audio1.mp3";
+import song0 from "../assets/song/dasalphabet.mp3";
 import song1 from "../assets/song/zahlen.mp3";
 import song2 from "../assets/song/zahlen2.mp3";
 import song3 from "../assets/song/zahlen3.mp3";
@@ -47,16 +47,13 @@ const PageEin = () => {
             <div className="font-pR text-[25px] flex-1">
               Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä, Ö,
               Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
-              speziellen Buchstaben ä, ö, ü und ß verwirren. Wenn du Deutsch als
-              Fremdsprache lernst, werden sie dir am Anfang bestimmt
-              schwerfallen. Aber bitte glaube mir, wenn ich dir sage, dass es
-              nur eine Frage der Zeit ist, bist du dich an sie gewöhnt hast.
+              speziellen Buchstaben ä, ö, ü und ß verwirren. 
               <div className="py-[25px]  text-[25px] font-pB">
                 Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp,
                 Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
                 <span className="text-red">Ää, Öö, Üü, ß</span>
               </div>
-              <audio src={song} controls className="w-[100%] h-[90px]"></audio>
+              <audio src={song0} controls className="w-[100%] h-[90px]"></audio>
             </div>
           </div>
           <div className="py-[20px]">
@@ -67,8 +64,7 @@ const PageEin = () => {
 
           <div className="w-[100%] flex justify-between items-start gap-[20px] bg-dark p-[30px] text-white">
             <div className="font-pR text-[25px] flex-1">
-              Heute wirst du die deutschen Zahlen von 1 bis 999.999 lernen. Du
-              musst nicht alle Zahlen auswendig lernen Es gibt ein System.
+           Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
               Zählen auf Deutsch ist einfach, wenn du es richtig machst!
               <div className="py-[20px]">
                 <p className="font-pB text-[25px]">
