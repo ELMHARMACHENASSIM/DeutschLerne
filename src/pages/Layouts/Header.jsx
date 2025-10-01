@@ -95,7 +95,7 @@ const Header = () => {
               <span className="font-pL">HAMZA HAROUNE</span> |{" "}
               <span className="font-pL">Malak Rahma</span> |{" "}
               <span className="font-pL">Hafssa Hamidi</span>
-<span>Anas El Othmani</span>
+<span className="font-pL">Anas El Otmani</span>
             </h1>
           </div>
           <div className="w-[600px] h-[600px]">
