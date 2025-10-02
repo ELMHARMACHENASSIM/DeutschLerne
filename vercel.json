@@ -1,0 +1,32 @@
+{
+    "routes" : [
+         {
+        "src": "/",
+        "dest": "/"
+      },
+      {
+        "src": "/page1",
+        "dest" : "/"
+      },
+      {
+        "src": "/page2",
+        "dest":  "/"
+      },
+      {
+        "src": "/page3",
+        "dest":  "/"
+      },
+      {
+        "src": "/page4",
+        "dest":  "/"
+      },
+      {
+        "src": "/page5",
+        "dest":  "/"
+      },
+      {
+        "src": "/page6",
+        "dest":   "/"
+      }
+    ]
+}
