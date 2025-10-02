@@ -29,13 +29,13 @@ const PageZwei = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
-          <div className="py-[20px]">
+          <div className="py-[20px] select-none">
             <div className="py-[20px]">
               <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
                 Sich Vorstellen
               </h1>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center font-pR select-none">
               <div className="flex-1">
                 <h1 className="leading-[50px]">
                   Sich vorzustellen bedeutet, sich selbst einer Person oder
@@ -56,8 +56,8 @@ const PageZwei = () => {
               </div>
             </div>
           </div>
-          <div className="bg-dark py-[30px] px-[20px] text-white flex flex-col gap-[15px] ">
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid grid-cols-2 gap-[15px] font-pR select-none">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 wie heißen Sie? <span className="text-red">oder</span> wie ist
                 Ihr name ?
@@ -70,23 +70,23 @@ const PageZwei = () => {
                 ist ‘last name’
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">woher Kommen Sie ? </summary>
               <p className="px-[25px] text-yellow">
                 Ich Komme <mark>aus</mark> ‘Marokko’{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">wo Wohnen Sie ?</summary>
               <p className="px-[25px] text-yellow">
                 Ich Wohne <mark>in</mark> ‘Casablanca’{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Was lernen Sie ?</summary>
               <p className="px-[25px] text-yellow">Ich lerne Deutsch </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 Was machen Sie beruflich ?{" "}
                 <span className="text-red">oder</span> Was sind Sie von Beruf ?
@@ -95,7 +95,7 @@ const PageZwei = () => {
                 Ich bin Webentwickler und Grafikdesigner{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 Wie ist Ihre Familiensituation ?{" "}
                 <span className="text-red">oder</span> Wie ist Ihr Familienstand
@@ -111,7 +111,7 @@ const PageZwei = () => {
                 </ul>{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 Welche Sprachen sprechen Sie?
               </summary>
@@ -120,7 +120,7 @@ const PageZwei = () => {
                 Deutsch.
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Was sind ihre hobbys ?</summary>
               <p className="px-[25px] text-yellow">
                 Meine Hobbys sind Fußballspielen{" "}
@@ -130,18 +130,18 @@ const PageZwei = () => {
                 <span className="text-white">|</span> Schwimmen
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 Wie alt sind Sie ? <span className="text-red">oder</span> Wie
                 alt bist du ?
               </summary>
               <p className="px-[25px] text-yellow">ch bin 28 Jahre alt </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Wann sind sie geboren ?</summary>
               <p className="px-[25px] text-yellow">Ich bin 1997 geboren</p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 Wie ist Ihre Email-Adresse ?
               </summary>
@@ -150,26 +150,26 @@ const PageZwei = () => {
                 <img src={eml} alt="" className="w-[100%] h-[auto]" />
               </div>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Was Studieren Sie ?</summary>
               <p className="px-[25px] text-yellow">
                 Ich Studiere Jura , Chemie , Informatik{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Wo Studieren Sie ?</summary>
               <p className="px-[25px] text-yellow">
                 Ich Studiere an der Universität , dei Fakultät{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Wie ist Ihre Adresse ?</summary>
               <p className="px-[25px] text-yellow">
                 Meine adresse ist MOHAMMED V Straße Hausnummer 55 P L Z (Post
                 Leit Zahl) 2000 casablanca Marokko{" "}
               </p>
             </details>
-            <details className="-700 p-[15px] w-[100%] border-[2px] border-white">
+            <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">Wie ist Ihre Telefonnummer ?</summary>
               <p className="px-[25px] text-yellow">Meine Telefonnummer ist 0622444005 (zwei mal 2  / zwei mal 4 / zwei mal 0) </p>
             </details>

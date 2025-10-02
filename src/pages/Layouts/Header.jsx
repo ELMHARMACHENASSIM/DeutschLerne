@@ -46,19 +46,19 @@ const Header = () => {
                 className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
               >
                 <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                    Stammbaum
+                  Stammbaum
                 </span>
                 <span className="absolute top-0 left-0 w-full h-1/3 bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
                 <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
                 <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
               </Link>
-           
+
               <Link
                 to="/page4"
                 className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
               >
                 <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                   Die Restaurant
+                  Die Restaurant
                 </span>
                 <span className="absolute top-0 left-0 w-full h-1/3 bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
                 <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
@@ -70,13 +70,13 @@ const Header = () => {
                 className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
               >
                 <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                 Die Monate und Die wochen und Die Uhr
+                  Die Monate und Die wochen und Die Uhr
                 </span>
                 <span className="absolute top-0 left-0 w-full h-1/3 bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
                 <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
                 <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
               </Link>
-              
+
               <Link
                 to="/page6"
                 className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
@@ -94,8 +94,8 @@ const Header = () => {
               <span className="font-pL">NASSIM ELMHARMACHE</span> |{" "}
               <span className="font-pL">HAMZA HAROUNE</span> |{" "}
               <span className="font-pL">Malak Rahma</span> |{" "}
-              <span className="font-pL">Hafssa Hamidi</span> | 
-<span className="font-pL">Anas El Otmani</span>
+              <span className="font-pL">Hafssa Hamidi</span> |{" "} 
+              <span className="font-pL">Anas El Otmani</span>
             </h1>
           </div>
           <div className="w-[600px] h-[600px]">

@@ -12,126 +12,128 @@ import bck from "../assets/img/bck.png";
 const PageEin = () => {
   return (
     <>
-    <div className="w-[100%] h-[100%]" style={{
-                  backgroundImage: `url(${bck})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                   
-                }}>
-         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-        <div className="w-[100%] flex justify-between items-center">
-          <Link to={"/"} className="flex  items-center gap-[10px]">
-            {" "}
-            <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
-          </Link>
+      <div
+        className="w-[100%] h-[100%] select-none" 
+        style={{
+          backgroundImage: `url(${bck})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="Mycontainer  py-[50px] font-pB text-[20px]">
+          <div className="w-[100%] flex justify-between items-center">
+            <Link to={"/"} className="flex  items-center gap-[10px]">
+              {" "}
+              <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
+            </Link>
             <Link to={"/page2"} className="flex  items-center gap-[10px]">
-            {" "}
-            <span>Sich Vorstellen</span> <FontAwesomeIcon icon={faArrowRight} /> 
-          </Link>
-        </div>
-        <div className="py-[20px]">
-          <div className="py-[20px]">
-            <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-             Buckstaben und Zahlen
-            </h1>
+              {" "}
+              <span>Sich Vorstellen</span>{" "}
+              <FontAwesomeIcon icon={faArrowRight} />
+            </Link>
           </div>
-          <div className="w-[100%] flex justify-between items-center gap-[20px]">
-            <div className="w-[600px] h-[600px]">
-              <img
-                src={imgOne}
-                alt=""
-                className="w-[100%] h-[100%] object-cover"
-              />
-            </div>{" "}
-            <div className="font-pR text-[25px] flex-1">
-              Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä, Ö,
-              Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
-              speziellen Buchstaben ä, ö, ü und ß verwirren. 
-              <div className="py-[25px]  text-[25px] font-pB">
-                Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp,
-                Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
-                <span className="text-red">Ää, Öö, Üü, ß</span>
-              </div>
-              <audio src={song0} controls className="w-[100%] h-[90px]"></audio>
+          <div className="py-[20px]">
+            <div className="py-[20px]">
+              <h1 className="border-s-4 border-black  ps-[20px] text-[20px]">
+                Buckstaben und Zahlen
+              </h1>
             </div>
-          </div>
-          <div className="py-[20px]">
-            <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-              Zahlen
-            </h1>
-          </div>
+            <div className="w-[100%] flex justify-between items-center gap-[20px]">
+              <div className="w-[600px] h-[600px]">
+                <img
+                  src={imgOne}
+                  alt=""
+                  className="w-[100%] h-[100%] object-cover"
+                />
+              </div>{" "}
+              <div className="font-pR text-[25px] flex-1">
+                Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä,
+                Ö, Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
+                speziellen Buchstaben ä, ö, ü und ß verwirren.
+                <div className="py-[25px]  text-[25px] font-pB">
+                  Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo,
+                  Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
+                  <span className="text-red">Ää, Öö, Üü, ß</span>
+                </div>
+                <audio
+                  src={song0}
+                  controls
+                  className="w-[100%] h-[90px]"
+                ></audio>
+              </div>
+            </div>
+            <div className="py-[20px]">
+              <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
+                Zahlen
+              </h1>
+            </div>
 
-          <div className="w-[100%] flex justify-between items-start gap-[20px] bg-dark p-[30px] text-white">
-            <div className="font-pR text-[25px] flex-1">
-           Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
-              Zählen auf Deutsch ist einfach, wenn du es richtig machst!
-              <div className="py-[20px]">
-                <p className="font-pB text-[25px]">
-                  1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =
-                  sechs | 7 = sieben | 8 = acht | 9 = neun | 10 = zehn
-                </p>
-                <audio
-                  src={song1}
-                  controls
-                  className="w-[100%] h-[60px]"
-                ></audio>
+            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white">
+              <p>   Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
+                Zählen auf Deutsch ist einfach, wenn du es richtig machst!</p>
+              <div className="font-pR text-[25px] grid grid-cols-2 gap-[20px]">
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =
+                    sechs | 7 = sieben | 8 = acht | 9 = neun | 10 = zehn
+                  </p>
+                  <audio
+                    src={song1}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    11 = elf | 12 = zwölf | 13 = dreizehn | 14 = vierzehn | 15 =
+                    fünfzehn | 16 = sechzehn | 17 = siebzehn | 18 = achtzehn |
+                    19 = neunzehn | 20 = zwanzig
+                  </p>
+                  <audio
+                    src={song2}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    21 = einundzwanzig | 22 = zweiundzwanzig | 23 =
+                    dreiundzwanzig | 24 = vierundzwanzig | 25 = fünfundzwanzig
+                  </p>
+                  <audio
+                    src={song3}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    30 = dreißig | 31 = einunddreißig | 32 = zweiunddreißig | 33
+                    = dreiunddreißig
+                  </p>
+                  <audio
+                    src={song4}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    40 = vierzig | 50 = fünfzig | 60 = sechzig | 70 = siebzig |
+                    80 = achtzig | 90 = neunzig | 50 = einhundert (hundert)
+                  </p>
+                  <audio
+                    src={song5}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
               </div>
-              <div className="py-[20px]">
-                <p className="font-pB text-[25px]">
-                  11 = elf | 12 = zwölf | 13 = dreizehn | 14 = vierzehn | 15 =
-                  fünfzehn | 16 = sechzehn | 17 = siebzehn | 18 = achtzehn | 19
-                  = neunzehn | 20 = zwanzig
-                </p>
-                <audio
-                  src={song2}
-                  controls
-                  className="w-[100%] h-[60px]"
-                ></audio>
-              </div>
-              <div className="py-[20px]">
-                <p className="font-pB text-[25px]">
-                  21 = einundzwanzig | 22 = zweiundzwanzig | 23 = dreiundzwanzig
-                  | 24 = vierundzwanzig | 25 = fünfundzwanzig
-                </p>
-                <audio
-                  src={song3}
-                  controls
-                  className="w-[100%] h-[60px]"
-                ></audio>
-              </div>
-              <div className="py-[20px]">
-                <p className="font-pB text-[25px]">
-                  30 = dreißig | 31 = einunddreißig | 32 = zweiunddreißig | 33 =
-                  dreiunddreißig
-                </p>
-                <audio
-                  src={song4}
-                  controls
-                  className="w-[100%] h-[60px]"
-                ></audio>
-              </div>
-              <div className="py-[20px]">
-                <p className="font-pB text-[25px]">
-                  40 = vierzig | 50 = fünfzig | 60 = sechzig | 70 = siebzig | 80
-                  = achtzig | 90 = neunzig | 100 = einhundert (hundert)
-                </p>
-                <audio
-                  src={song5}
-                  controls
-                  className="w-[100%] h-[60px]"
-                ></audio>
-              </div>
-             
-           
-            
             </div>
-     
           </div>
         </div>
       </div>
-    </div>
-   
     </>
   );
 };

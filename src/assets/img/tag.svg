@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910.95 393.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: Poppins-Bold, Poppins;
+        font-size: 22.74px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #b62226;
+        font-size: 17.08px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        fill: #010101;
+        font-size: 19.16px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #010101;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-3" transform="translate(0 154.21)"><tspan x="0" y="0">Guten Morgan</tspan></text>
+    <text class="cls-3" transform="translate(349.61 75.42)"><tspan x="0" y="0">Guten tag</tspan></text>
+    <text class="cls-3" transform="translate(625.67 145.54)"><tspan x="0" y="0">Guten Abend</tspan></text>
+    <text class="cls-3" transform="translate(801.33 145.54)"><tspan x="0" y="0">Guten naht</tspan></text>
+    <g>
+      <polyline class="cls-4" points="252.58 154.21 252.58 120.52 548.13 120.52 548.13 154.21"/>
+      <line class="cls-4" x1="400.36" y1="120.52" x2="400.36" y2="86.88"/>
+    </g>
+    <line class="cls-4" x1="74.63" y1="230.54" x2="857.81" y2="230.54"/>
+    <g>
+      <text class="cls-2" transform="translate(52.11 291.45)"><tspan x="0" y="0">05:00</tspan><tspan x="0" y="20.49">09:00</tspan></text>
+      <text class="cls-2" transform="translate(43.13 184.16)"><tspan x="0" y="0">Morgen</tspan></text>
+      <line class="cls-4" x1="76.4" y1="197.24" x2="76.4" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(212.95 184.16)"><tspan x="0" y="0">vormittag</tspan></text>
+      <text class="cls-2" transform="translate(232.35 291.45)"><tspan x="0" y="0">09:00</tspan><tspan x="0" y="20.49">12:00</tspan></text>
+      <line class="cls-4" x1="256.49" y1="197.24" x2="256.49" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(361.88 184.16)"><tspan x="0" y="0">mittag</tspan></text>
+      <text class="cls-2" transform="translate(369.54 291.45)"><tspan x="0" y="0">12:00</tspan><tspan x="0" y="20.49">15:00</tspan></text>
+      <line class="cls-4" x1="391.41" y1="197.24" x2="391.41" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(496.4 184.16)"><tspan x="0" y="0">nachmittag</tspan></text>
+      <text class="cls-2" transform="translate(526.27 291.45)"><tspan x="0" y="0">15:00</tspan><tspan x="0" y="20.49">18:00</tspan></text>
+      <line class="cls-4" x1="548.13" y1="197.24" x2="548.13" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(662.11 184.16)"><tspan x="0" y="0">Abend</tspan></text>
+      <text class="cls-2" transform="translate(667.42 291.45)"><tspan x="0" y="0">18:00</tspan><tspan x="0" y="20.49">23:00</tspan></text>
+      <line class="cls-4" x1="690.71" y1="197.24" x2="690.71" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(832.28 184.16)"><tspan x="0" y="0">nacht</tspan></text>
+      <text class="cls-2" transform="translate(833.52 291.45)"><tspan x="0" y="0">23:00</tspan><tspan x="0" y="20.49">05:00</tspan></text>
+      <line class="cls-4" x1="857.81" y1="197.24" x2="857.81" y2="262.56"/>
+    </g>
+    <g>
+      <text class="cls-2" transform="translate(179.81 372.64)"><tspan x="0" y="0">Mittenacht</tspan></text>
+      <line class="cls-4" x1="172.93" y1="367.94" x2="107.61" y2="367.94"/>
+      <text class="cls-2" transform="translate(52.11 363.12)"><tspan x="0" y="0">00:00</tspan><tspan x="0" y="20.49">24:00</tspan></text>
+    </g>
+  </g>
+  <text class="cls-1" transform="translate(384.68 19.39)"><tspan x="0" y="0">Tageszeiten</tspan></text>
+</svg>
