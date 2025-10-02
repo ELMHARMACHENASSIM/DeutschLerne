@@ -2,7 +2,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import uhr from "../assets/img/uhr.svg";
 import bck from "../assets/img/bck.png";
-import tabuhr from "../assets/img/tabuhr.svg";
+import tabuhr from "../assets/img/tabhur.svg";
 import monat from "../assets/img/monat.svg";
 import tag from "../assets/img/tag.svg";
 import { Link } from "react-router";
