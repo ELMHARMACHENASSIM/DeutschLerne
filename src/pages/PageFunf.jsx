@@ -78,7 +78,7 @@ const PageFunf = () => {
                   </div>
                 </div>
               </div>
-              <img src={tabuhr} alt="" className="w-[400px] h-[100%] " />{" "}
+              <img src={tabuhr} alt="" className="w-[400px] h-[100%] " /> {" "}
             </div>
           </div>
         </div>
