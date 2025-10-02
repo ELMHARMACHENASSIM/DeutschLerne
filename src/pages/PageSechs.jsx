@@ -2,35 +2,41 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import bck from "../assets/img/bck.png";
+import pers from "../assets/img/pers.svg";
 const PageSechs = () => {
   return (
     <>
-       <div
-            className="w-[100%] h-[100%]"
-            style={{
-              backgroundImage: `url(${bck})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          >
-      <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-        <div className="w-[100%] flex justify-between items-center">
-          <Link to={"/page5"} className="flex  items-center gap-[10px]">
-            {" "}
-            <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Monate und Die wochen und Die Uhr</span>
-          </Link>
-        </div>
-        <div className="py-[20px]">
-          {" "}
+      <div
+        className="w-[100%] h-[100%]"
+        style={{
+          backgroundImage: `url(${bck})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="Mycontainer  py-[50px] font-pB text-[20px]">
+          <div className="w-[100%] flex justify-between items-center">
+            <Link to={"/page5"} className="flex  items-center gap-[10px]">
+              {" "}
+              <FontAwesomeIcon icon={faArrowLeft} />{" "}
+              <span>Die Monate und Die wochen und Die Uhr</span>
+            </Link>
+          </div>
           <div className="py-[20px]">
-            <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
-           Nominativ und Akkusativ
-            </h1>
+            {" "}
+            <div className="py-[20px]">
+              <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
+                Nominativ und Akkusativ
+              </h1>
+            </div>
+          </div>
+          <div>
+            <div className="bg-white/70 w-[800px] p-[20px]">
+              <img src={pers} alt="" className="w-[100%]" />
+            </div>
           </div>
         </div>
-        <div></div>
-      </div>
       </div>
     </>
   );

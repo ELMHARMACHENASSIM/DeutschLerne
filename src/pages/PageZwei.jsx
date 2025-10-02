@@ -46,7 +46,7 @@ const PageZwei = () => {
                   auftritt und klar und deutlich spricht.{" "}
                 </h1>
               </div>
-              <div className="w-[500px] h-{500px]">
+              <div className="w-[700px] h-{500px]">
                 <img
                   src={img4}
                   alt=""
