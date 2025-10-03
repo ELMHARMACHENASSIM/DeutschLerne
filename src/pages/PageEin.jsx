@@ -8,12 +8,13 @@ import song2 from "../assets/song/zahlen2.mp3";
 import song3 from "../assets/song/zahlen3.mp3";
 import song4 from "../assets/song/zahlen4.mp3";
 import song5 from "../assets/song/zahlen5.mp3";
+import song6 from "../assets/song/zahlen6.mp3";
 import bck from "../assets/img/bck.png";
 const PageEin = () => {
   return (
     <>
       <div
-        className="w-[100%] h-[100%] select-none" 
+        className="w-[100%] h-[100%] select-none"
         style={{
           backgroundImage: `url(${bck})`,
           backgroundRepeat: "no-repeat",
@@ -70,8 +71,11 @@ const PageEin = () => {
             </div>
 
             <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white">
-              <p>   Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
-                Zählen auf Deutsch ist einfach, wenn du es richtig machst!</p>
+              <p>
+                {" "}
+                Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
+                Zählen auf Deutsch ist einfach, wenn du es richtig machst!
+              </p>
               <div className="font-pR text-[25px] grid grid-cols-2 gap-[20px]">
                 <div className="py-[20px]">
                   <p className="font-pR text-[20px] py-[5px]">
@@ -125,6 +129,20 @@ const PageEin = () => {
                   </p>
                   <audio
                     src={song5}
+                    controls
+                    className="w-[50%] h-[60px]"
+                  ></audio>
+                </div>
+                <div className="py-[20px]">
+                  <p className="font-pR text-[20px] py-[5px]">
+                    101 = einhunderteins  | 102 = einhundertzwei  | 103 =
+                    einhundertdrei  | 110 = einhundertzehn  | 111 = einhundertelf  | 120
+                    = einhundertzwanzig  | 121 = einhunderteinundzwanzig  | 130 =
+                    einhundertdreißig  | 131 = einhunderteinunddreißig  | 140 =
+                    einhundertvierzig  | 150 = einhundertfünfzig
+                  </p>
+                  <audio
+                    src={song6}
                     controls
                     className="w-[50%] h-[60px]"
                   ></audio>
