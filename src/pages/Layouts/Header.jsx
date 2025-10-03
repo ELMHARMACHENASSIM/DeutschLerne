@@ -1,11 +1,16 @@
 import { Link } from "react-router";
-import imghome from "../../assets/img/img3.jpg";
+import imghome1 from "../../assets/img/imghome1.jpg";
+import imghome2 from "../../assets/img/imghome2.jpg";
+import imghome3 from "../../assets/img/imghome3.jpg";
+import imghome4 from "../../assets/img/imghome4.jpg";
+import imghome5 from "../../assets/img/imghome5.jpg";
+import imghome6 from "../../assets/img/imghome6.jpg";
 import bck from "../../assets/img/bck.png";
 const Header = () => {
   return (
     <>
       <header
-        className=" bg-white w-[100%] h-[100vh] flex  items-center py-[30px]"
+        className=" bg-white w-[100%] h-[100vh] py-[30px]"
         style={{
           backgroundImage: `url(${bck})`,
           backgroundRepeat: "no-repeat",
@@ -13,94 +18,73 @@ const Header = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className=" Mycontainer  text-dark flex justify-between items-center gap-[20px]">
-          <div className="flex justify-center items-start flex-col gap-[20px]">
-            <h1 className="text-[50px] font-pB ">Die Präsentation</h1>
-            <div className="flex justify-center items-center flex-col gap-[15px]">
-              <Link
+        <div className=" Mycontainer h-[100%] text-dark flex justify-center items-center gap-[20px]">
+          <div className="flex justify-center items-center flex-col gap-[20px]">
+            <h1 className="text-[50px] font-pB  py-[20px]">Die Präsentation</h1>
+            {/* <div className="flex justify-center items-center flex-col gap-[15px] "> */}
+            <div className="grid grid-cols-3  gap-[15px]  py-[20px]">
+               <Link
                 to="/page1"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
               >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Buckstaben und Zahlen
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR  hidden group-hover:block ">Buckstaben und Zahlen</h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome1} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
               </Link>
-
-              <Link
+               <Link
                 to="/page2"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
               >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  sich vorstellen
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR hidden group-hover:block">Sich Vorstellen</h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome2} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
               </Link>
-
-              <Link
+                  <Link
                 to="/page3"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
               >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Stammbaum
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR hidden group-hover:block">Stammbaum</h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome3} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
               </Link>
-
-              <Link
+                  <Link
                 to="/page4"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
               >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Die Restaurant
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR hidden group-hover:block">Die Restaurants</h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome4} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
               </Link>
-
-              <Link
+                  <Link
                 to="/page5"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
               >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Die Monate und Die wochen und Die Uhr
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR hidden group-hover:block">Die Monate und Die wochen und Die Uhr </h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome5} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
+              </Link>
+                  <Link
+                to="/page6"
+                className="relative  text-center font-pB  w-[450px] h-[200px] overflow-hidden group border-[3px] border-dark"
+              >
+              <h1 className="absolute top-[50%] left-[50%] translate-[-50%] text-white z-10 text-[25px] font-pR hidden group-hover:block">Nominativ und Akkusativ</h1>
+              <div className="overlay absolute top-0 left-0 w-[100%] h-[100%] bg-black/0 z-3 group-hover:bg-black/50 transition-colors duration-300"></div>
+                <img src={imghome6} alt="" className="w-[100%] h-[100%] object-cover  object-center transition-transform duration-500 group-hover:scale-125" />
               </Link>
 
-              <Link
-                to="/page6"
-                className="relative bg-white text-center font-pB p-[15px] w-[100%] border-[2px] border-black overflow-hidden group"
-              >
-                <span className="relative z-10 transition-colors duration-500 group-hover:text-white text-[20px]">
-                  Nominativ und Akkusativ
-                </span>
-                <span className="absolute top-0 left-0 w-full h-1/3 bg-black/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
-                <span className="absolute top-1/3 left-0 w-full h-1/3 bg-red/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700" />
-                <span className="absolute top-2/3 left-0 w-full h-1/3 bg-yellow/50 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-1000" />
-              </Link>
             </div>
-            <h1 className="text-[25px]  py-[15px] bg-dark p-[15px] font-pB w-[600px] text-white">
+            <h1 className="text-[22px] text-center  bg-dark p-[15px] font-pB w-[100%] text-white py-[20px]">
               Unterstützt von :{" "}
-              <span className="font-pL">NASSIM ELMHARMACHE</span> |{" "}
-              <span className="font-pL">HAMZA HAROUNE</span> |{" "}
-              <span className="font-pL">Malak Rahma</span> |{" "}
-              <span className="font-pL">Hafssa Hamidi</span> |{" "} 
+              <span className="font-pL">NASSIM ELMHARMACHE</span> &nbsp; | &nbsp;{" "}
+              <span className="font-pL">HAMZA HAROUNE</span> &nbsp; | &nbsp;{" "}
+              <span className="font-pL">Malak Rahma</span> &nbsp; | &nbsp;{" "}
+              <span className="font-pL">Hafssa Hamidi</span> &nbsp; | &nbsp;{" "} 
               <span className="font-pL">Anas El Otmani</span>
             </h1>
           </div>
-          <div className="w-[600px] h-[600px]">
+          {/* <div className="w-[600px] h-[600px]">
             <img src={imghome} alt="" className="w-[100%] h-[100%]" />
-          </div>
+          </div> */}
         </div>
       </header>
     </>
