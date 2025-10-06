@@ -17,7 +17,7 @@ const PageZwei = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center">
+          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
             <Link to={"/page1"} className="flex  items-center gap-[10px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
@@ -35,9 +35,9 @@ const PageZwei = () => {
                 Sich Vorstellen
               </h1>
             </div>
-            <div className="flex justify-between items-center font-pR select-none">
+            <div className="flex justify-between items-center font-pR select-none xs:flex-col-reverse">
               <div className="flex-1">
-                <h1 className="leading-[50px]">
+                <h1 className="leading-[50px] xs:text-[20px]">
                   Sich vorzustellen bedeutet, sich selbst einer Person oder
                   einer Gruppe vorzustellen, meistens durch die Angabe des
                   Namens, der Herkunft, des Wohnortes und des Berufs. Eine
@@ -46,7 +46,7 @@ const PageZwei = () => {
                   auftritt und klar und deutlich spricht.{" "}
                 </h1>
               </div>
-              <div className="w-[700px] h-{500px]">
+              <div className="w-[700px] h-{500px] xs:w-[100%] xs:h-[100%]">
                 <img
                   src={img4}
                   alt=""
@@ -56,7 +56,7 @@ const PageZwei = () => {
               </div>
             </div>
           </div>
-          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid grid-cols-2 gap-[15px] font-pR select-none">
+          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid grid-cols-2 gap-[15px] font-pR select-none xs:grid-cols-1">
             <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 wie heißen Sie? <span className="text-red">oder</span> wie ist
@@ -146,7 +146,7 @@ const PageZwei = () => {
                 Wie ist Ihre Email-Adresse ?
               </summary>
               <p className="px-[25px] text-yellow">Meine email adresse ist </p>
-              <div className="w-[600px] h-[auto] py-[10px]">
+              <div className="w-[600px] h-[auto] py-[10px] xs:w-[100%]">
                 <img src={eml} alt="" className="w-[100%] h-[auto]" />
               </div>
             </details>

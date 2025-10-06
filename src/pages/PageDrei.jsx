@@ -36,7 +36,7 @@ const PageDrei = () => {
               </h1>
             </div>
             <div className="flex justify-center  ">
-              <div className="w-[60%] h-[auto] bg-white/80 p-[20px]">
+              <div className="w-[60%] h-[auto] bg-white/80 p-[20px] xs:w-[100%]">
                 <img src={fam} alt="" className="w-[100%] h-[auto]" />
               </div>
             </div>

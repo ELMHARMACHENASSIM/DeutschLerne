@@ -19,8 +19,8 @@ const PageFunf = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center">
-            <Link to={"/page4"} className="flex  items-center gap-[10px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
+            <Link to={"/page4"} className="flex  items-center gap-[10px] ">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Restaurant</span>
             </Link>
@@ -30,15 +30,15 @@ const PageFunf = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
-          <div className="p-[30px] bg-white/70">
+          <div className="p-[30px] bg-white/70 xs:p-[10px]">
             {" "}
             <div className="py-[20px]">
               <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
                 Die Monate und Die wochen und Die Uhr
               </h1>
             </div>
-            <div className="w-[100%] flex justify-between items-center gap-[20px] ">
-              <div className="w-[40%] h-[auto]">
+            <div className="w-[100%] flex justify-between items-center gap-[20px] xs:flex-col ">
+              <div className="w-[40%] h-[auto] xs:w-[100%]">
                 <img
                   src={monat}
                   alt=""
@@ -46,11 +46,11 @@ const PageFunf = () => {
                   className="w-[100%] h-[auto]"
                 />
               </div>
-              <div className="w-[60%]"><img src={tag} alt="" /></div>
+              <div className="w-[60%] xs:w-[100%]"><img src={tag} alt="" /></div>
             </div>
-            <div className="w-[100%]  p-[25px] flex justify-between items-center  gap-[40px]">
-              <img src={uhr} alt="" className="w-[600px] h-[100%]  " />
-              <div className="w-[100%] h-[100%] font-pR">
+            <div className="w-[100%]  p-[25px] flex justify-between items-center  gap-[40px] xs:flex-col xs:p-[5px]">
+              <img src={uhr} alt="" className="w-[600px] h-[100%] xs:w-[100%]  " />
+              <div className="w-[100%] h-[100%] font-pR xs:text-[20px]">
                 {" "}
                 <h1>Fragen</h1>
                 <div>
@@ -78,7 +78,7 @@ const PageFunf = () => {
                   </div>
                 </div>
               </div>
-              <img src={tabuhr} alt="" className="w-[400px] h-[100%] " /> {" "}
+              <img src={tabuhr} alt="" className="w-[400px] h-[100%] xs:w-[100%]" /> {" "}
             </div>
           </div>
         </div>

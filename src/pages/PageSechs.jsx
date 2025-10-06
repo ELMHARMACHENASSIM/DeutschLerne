@@ -25,14 +25,14 @@ const PageSechs = () => {
           </div>
           <div className="py-[20px]">
             {" "}
-            <div className="py-[20px]">
+            <div className="py-[20px] xs:p-[10px]">
               <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">
                 Nominativ und Akkusativ
               </h1>
             </div>
           </div>
           <div>
-            <div className="bg-white/70 w-[800px] p-[20px]">
+            <div className="bg-white/70 w-[800px] p-[20px] xs:w-[100%]">
               <img src={pers} alt="" className="w-[100%]" />
             </div>
           </div>

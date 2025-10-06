@@ -23,7 +23,7 @@ const PageEin = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center">
+          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
             <Link to={"/"} className="flex  items-center gap-[10px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
@@ -40,19 +40,19 @@ const PageEin = () => {
                 Buckstaben und Zahlen
               </h1>
             </div>
-            <div className="w-[100%] flex justify-between items-center gap-[20px]">
-              <div className="w-[600px] h-[600px]">
+            <div className="w-[100%] flex justify-between items-center gap-[20px] xs:flex-col">
+              <div className="w-[600px] h-[600px] xs:w-[100%] xs:h-[100%] ">
                 <img
                   src={imgOne}
                   alt=""
                   className="w-[100%] h-[100%] object-cover"
                 />
               </div>{" "}
-              <div className="font-pR text-[25px] flex-1">
+              <div className="font-pR text-[25px] flex-1 xs:text-[20px]">
                 Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä,
                 Ö, Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
                 speziellen Buchstaben ä, ö, ü und ß verwirren.
-                <div className="py-[25px]  text-[25px] font-pB">
+                <div className="py-[25px]  text-[25px] font-pB xs:text-[16px]">
                   Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo,
                   Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
                   <span className="text-red">Ää, Öö, Üü, ß</span>
@@ -60,7 +60,7 @@ const PageEin = () => {
                 <audio
                   src={song0}
                   controls
-                  className="w-[100%] h-[90px]"
+                  className="w-[100%] h-[90px] xs:h-[50px]"
                 ></audio>
               </div>
             </div>
@@ -70,13 +70,13 @@ const PageEin = () => {
               </h1>
             </div>
 
-            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white">
+            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white xs:text-[20                         px]">
               <p>
                 {" "}
                 Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
                 Zählen auf Deutsch ist einfach, wenn du es richtig machst!
               </p>
-              <div className="font-pR text-[25px] grid grid-cols-2 gap-[20px]">
+              <div className="font-pR text-[25px] grid grid-cols-2 gap-[20px] xs:grid-cols-1">
                 <div className="py-[20px]">
                   <p className="font-pR text-[20px] py-[5px]">
                     1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =
@@ -85,7 +85,7 @@ const PageEin = () => {
                   <audio
                     src={song1}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
                 <div className="py-[20px]">
@@ -97,7 +97,7 @@ const PageEin = () => {
                   <audio
                     src={song2}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
                 <div className="py-[20px]">
@@ -108,7 +108,7 @@ const PageEin = () => {
                   <audio
                     src={song3}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
                 <div className="py-[20px]">
@@ -119,7 +119,7 @@ const PageEin = () => {
                   <audio
                     src={song4}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
                 <div className="py-[20px]">
@@ -130,7 +130,7 @@ const PageEin = () => {
                   <audio
                     src={song5}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
                 <div className="py-[20px]">
@@ -144,7 +144,7 @@ const PageEin = () => {
                   <audio
                     src={song6}
                     controls
-                    className="w-[50%] h-[60px]"
+                    className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
               </div>

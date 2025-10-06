@@ -21,7 +21,7 @@ const PageVier = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center">
+          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
             <Link to={"/page3"} className="flex  items-center gap-[10px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>Stammbaum</span>
@@ -40,26 +40,26 @@ const PageVier = () => {
               </h1>
             </div>
             <div className="flex justify-center flex-col items-center gap-[20px] ">
-              <div className="relative w-[900px]">
+              <div className="relative w-[900px] xs:w-[100%]">
                 {" "}
-                <div className="overlay bg-dark/50 w-[100%] h-[100%] absolute top-0 left-0 z-1"></div>
+                <div className="overlay bg-dark/50 w-[100%] h-[100%] absolute top-0 left-0 z-1 "></div>
                 <img
                   src={img5}
                   alt=""
                   srcset=""
-                  className="w-[100%] h-[100%]"
+                  className="w-[100%] h-[100%] "
                 />{" "}
-                <h1 className="absolute top-[50%] left-[50%] text-white font-pB text-center -translate-x-[50%] -translate-y-[50%] text-[30px] z-3">
+                <h1 className="absolute top-[50%] left-[50%] text-white font-pB text-center -translate-x-[50%] -translate-y-[50%] text-[30px] z-3 xs:text-[20px] xs:w-[100%]">
                   Restaurants sind Orte, wo man essen und trinken kann.
                 </h1>
               </div>
-              <div className="w-[1200px] h-[auto] py-[20px]  bg-white/70 p-[20px]">
+              <div className="w-[1200px] h-[auto] py-[20px]  bg-white/70 p-[20px] xs:w-[100%]">
                 <img src={rest2} alt="" className="w-[100%] h-[auto]" />
               </div>
-              <div className="w-[900px] h-[auto] py-[20px]  bg-white/70 p-[20px]">
+              <div className="w-[900px] h-[auto] py-[20px]  bg-white/70 p-[20px] xs:w-[100%]">
                 <img src={rest} alt="" className="w-[100%] h-[auto] " />
               </div>
-              <div className="relative w-[100%] h-[500px]">
+              <div className="relative w-[100%] h-[500px] xs:w-[100%]">
                 <div className="overlay bg-dark/50 w-[100%] h-[100%]  absolute top-0 left-0 z-1"></div>
                 <img
                   src={img6}
