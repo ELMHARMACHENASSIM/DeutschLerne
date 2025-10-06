@@ -24,11 +24,11 @@ const PageEin = () => {
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
           <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
-            <Link to={"/"} className="flex  items-center gap-[10px]">
+            <Link to={"/"} className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
             </Link>
-            <Link to={"/page2"} className="flex  items-center gap-[10px]">
+            <Link to={"/page2"} className="flex  items-center gap-[10px]  bg-red p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <span>Sich Vorstellen</span>{" "}
               <FontAwesomeIcon icon={faArrowRight} />
@@ -40,8 +40,8 @@ const PageEin = () => {
                 Buckstaben und Zahlen
               </h1>
             </div>
-            <div className="w-[100%] flex justify-between items-center gap-[20px] xs:flex-col">
-              <div className="w-[600px] h-[600px] xs:w-[100%] xs:h-[100%] ">
+            <div className="lg:w-[100%] lg:flex lg:justify-between lg:items-center lg:flex-row gap-[20px] xs:flex-col">
+              <div className="lg:w-[600px] lg:h-[600px] xs:w-[100%] xs:h-[100%] ">
                 <img
                   src={imgOne}
                   alt=""
@@ -70,13 +70,13 @@ const PageEin = () => {
               </h1>
             </div>
 
-            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white xs:text-[20                         px]">
+            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white xs:text-[20px]">
               <p>
                 {" "}
                 Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
                 Zählen auf Deutsch ist einfach, wenn du es richtig machst!
               </p>
-              <div className="font-pR text-[25px] grid grid-cols-2 gap-[20px] xs:grid-cols-1">
+              <div className="font-pR text-[25px] grid lg:grid-cols-2 gap-[20px] xs:grid-cols-1">
                 <div className="py-[20px]">
                   <p className="font-pR text-[20px] py-[5px]">
                     1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =

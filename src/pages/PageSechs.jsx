@@ -17,7 +17,7 @@ const PageSechs = () => {
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
           <div className="w-[100%] flex justify-between items-center">
-            <Link to={"/page5"} className="flex  items-center gap-[10px]">
+            <Link to={"/page5"} className="flex  items-center gap-[10px] bg-red p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
               <span>Die Monate und Die wochen und Die Uhr</span>
@@ -32,7 +32,7 @@ const PageSechs = () => {
             </div>
           </div>
           <div>
-            <div className="bg-white/70 w-[800px] p-[20px] xs:w-[100%]">
+            <div className="bg-white/70 lg:w-[800px] p-[20px] xs:w-[100%]">
               <img src={pers} alt="" className="w-[100%]" />
             </div>
           </div>

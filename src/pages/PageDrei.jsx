@@ -17,12 +17,12 @@ const PageDrei = () => {
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
           <div className="w-[100%] flex justify-between items-center">
-            <Link to={"/page2"} className="flex  items-center gap-[10px]">
+            <Link to={"/page2"} className="flex  items-center gap-[10px]  bg-red p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
               <span>Sich Vorstellen</span>
             </Link>
-            <Link to={"/page4"} className="flex  items-center gap-[10px]">
+            <Link to={"/page4"} className="flex  items-center gap-[10px]  bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <span> Die Restaurant</span>{" "}
               <FontAwesomeIcon icon={faArrowRight} />
@@ -36,7 +36,7 @@ const PageDrei = () => {
               </h1>
             </div>
             <div className="flex justify-center  ">
-              <div className="w-[60%] h-[auto] bg-white/80 p-[20px] xs:w-[100%]">
+              <div className="lg:w-[60%] h-[auto] bg-white/80 p-[20px] xs:w-[100%]">
                 <img src={fam} alt="" className="w-[100%] h-[auto]" />
               </div>
             </div>

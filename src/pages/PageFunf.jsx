@@ -20,11 +20,11 @@ const PageFunf = () => {
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
           <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
-            <Link to={"/page4"} className="flex  items-center gap-[10px] ">
+            <Link to={"/page4"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Restaurant</span>
             </Link>
-            <Link to={"/page6"} className="flex  items-center gap-[10px]">
+            <Link to={"/page6"} className="flex  items-center gap-[10px]  bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
               {" "}
               <span> Nominativ und Akkusativ</span>{" "}
               <FontAwesomeIcon icon={faArrowRight} />
@@ -37,8 +37,8 @@ const PageFunf = () => {
                 Die Monate und Die wochen und Die Uhr
               </h1>
             </div>
-            <div className="w-[100%] flex justify-between items-center gap-[20px] xs:flex-col ">
-              <div className="w-[40%] h-[auto] xs:w-[100%]">
+            <div className="w-[100%] flex justify-between items-center gap-[20px] lg:flex-row xs:flex-col ">
+              <div className="lg:w-[40%] h-[auto] xs:w-[100%]">
                 <img
                   src={monat}
                   alt=""
@@ -46,10 +46,10 @@ const PageFunf = () => {
                   className="w-[100%] h-[auto]"
                 />
               </div>
-              <div className="w-[60%] xs:w-[100%]"><img src={tag} alt="" /></div>
+              <div className="lg:w-[60%] xs:w-[100%]"><img src={tag} alt="" /></div>
             </div>
-            <div className="w-[100%]  p-[25px] flex justify-between items-center  gap-[40px] xs:flex-col xs:p-[5px]">
-              <img src={uhr} alt="" className="w-[600px] h-[100%] xs:w-[100%]  " />
+            <div className="w-[100%]  p-[25px] flex justify-between items-center lg:flex-row  gap-[40px] xs:flex-col xs:p-[5px]">
+              <img src={uhr} alt="" className="lg:w-[600px] h-[100%] xs:w-[100%]  " />
               <div className="w-[100%] h-[100%] font-pR xs:text-[20px]">
                 {" "}
                 <h1>Fragen</h1>
@@ -78,7 +78,7 @@ const PageFunf = () => {
                   </div>
                 </div>
               </div>
-              <img src={tabuhr} alt="" className="w-[400px] h-[100%] xs:w-[100%]" /> {" "}
+              <img src={tabuhr} alt="" className="lg:w-[400px] h-[100%] xs:w-[100%]" /> {" "}
             </div>
           </div>
         </div>

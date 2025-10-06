@@ -16,14 +16,14 @@ const PageZwei = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="Mycontainer  py-[50px] font-pB text-[20px]">
+        <div className="Mycontainer  py-[50px] font-pB text-[20px] ">
           <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
-            <Link to={"/page1"} className="flex  items-center gap-[10px]">
+            <Link to={"/page1"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]" >
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
               <span>Buckstaben und Zahlen</span>
             </Link>
-            <Link to={"/page3"} className="flex  items-center gap-[10px]">
+            <Link to={"/page3"} className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
               {" "}
               <span>Stammbaum</span>{" "}
               <FontAwesomeIcon icon={faArrowRight} />
@@ -35,9 +35,9 @@ const PageZwei = () => {
                 Sich Vorstellen
               </h1>
             </div>
-            <div className="flex justify-between items-center font-pR select-none xs:flex-col-reverse">
+            <div className="flex lg:justify-between lg:items-center lg:flex-row font-pR select-none xs:flex-col-reverse xs:gap-[20px]">
               <div className="flex-1">
-                <h1 className="leading-[50px] xs:text-[20px]">
+                <h1 className="lg:leading-[50px] xs:leading-[30px] xs:text-[20px]">
                   Sich vorzustellen bedeutet, sich selbst einer Person oder
                   einer Gruppe vorzustellen, meistens durch die Angabe des
                   Namens, der Herkunft, des Wohnortes und des Berufs. Eine
@@ -46,7 +46,7 @@ const PageZwei = () => {
                   auftritt und klar und deutlich spricht.{" "}
                 </h1>
               </div>
-              <div className="w-[700px] h-{500px] xs:w-[100%] xs:h-[100%]">
+              <div className="lg:w-[700px] lg:h-{500px] xs:w-[100%] xs:h-[100%]">
                 <img
                   src={img4}
                   alt=""
@@ -56,7 +56,7 @@ const PageZwei = () => {
               </div>
             </div>
           </div>
-          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid grid-cols-2 gap-[15px] font-pR select-none xs:grid-cols-1">
+          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid lg:grid-cols-2 gap-[15px] font-pR select-none xs:grid-cols-1">
             <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 wie heißen Sie? <span className="text-red">oder</span> wie ist
