@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       <header
-        className=" bg-white w-[100%] xl:h-[100vh] py-[30px]  xs:h-[100%]"
+        className=" bg-white w-[100%] xl:h-[100vh] lg:h-[100vh] py-[30px]  xs:h-[100%]"
         style={{
           backgroundImage: `url(${bck})`,
           backgroundRepeat: "no-repeat",
@@ -22,7 +22,7 @@ const Header = () => {
           <div className="flex justify-center items-center flex-col gap-[20px] xs:gap-[10px]">
             <h1 className="text-[50px] font-pB  py-[20px] xs:text-[25px] xs:py-[10px]">Die Präsentation</h1>
             {/* <div className="flex justify-center items-center flex-col gap-[15px] "> */}
-            <div className="grid xl:grid-cols-3  gap-[15px]  py-[20px] xs:grid-cols-1 xs:h-[100%]  xs:w-[100%] xs:py-[10px]">
+            <div className="grid xl:grid-cols-3  gap-[15px]  py-[20px] xs:grid-cols-1 xs:h-[100%]  xs:w-[100%] xs:py-[10px] lg:grid-cols-2 ">
               <Link
                 to="/page1"
                 className="relative  text-center font-pB  w-[450px] h-[200px] xs:w-[100%] overflow-hidden group border-[3px] border-dark"

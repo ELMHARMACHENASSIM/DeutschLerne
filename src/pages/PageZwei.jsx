@@ -17,7 +17,7 @@ const PageZwei = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px] ">
-          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px]">
             <Link to={"/page1"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]" >
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
@@ -56,7 +56,7 @@ const PageZwei = () => {
               </div>
             </div>
           </div>
-          <div className="bg-dark/70 py-[30px] px-[20px] text-white grid lg:grid-cols-2 gap-[15px] font-pR select-none xs:grid-cols-1">
+          <div className="bg-dark py-[30px] px-[20px] text-white grid lg:grid-cols-2 gap-[15px] font-pR select-none xs:grid-cols-1">
             <details className=" p-[15px] w-[100%] border-[2px] border-white">
               <summary className="py-[15px]">
                 wie heißen Sie? <span className="text-red">oder</span> wie ist

@@ -19,7 +19,7 @@ const PageFunf = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px]">
             <Link to={"/page4"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>Die Restaurant</span>
@@ -30,7 +30,7 @@ const PageFunf = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
-          <div className="p-[30px] bg-white/70 xs:p-[10px]">
+          <div className="p-[30px] bg-white xs:p-[10px]">
             {" "}
             <div className="py-[20px]">
               <h1 className="border-s-4 border-black  ps-[20px] text-[25px]">

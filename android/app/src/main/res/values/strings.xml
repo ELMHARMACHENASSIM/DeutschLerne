@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">deutschlerne</string>
+    <string name="title_activity_main">deutschlerne</string>
+    <string name="package_name">com.nassim.app</string>
+    <string name="custom_url_scheme">com.nassim.app</string>
+</resources>

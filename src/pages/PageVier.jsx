@@ -21,7 +21,7 @@ const PageVier = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px]">
             <Link to={"/page3"} className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>Stammbaum</span>
@@ -53,10 +53,10 @@ const PageVier = () => {
                   Restaurants sind Orte, wo man essen und trinken kann.
                 </h1>
               </div>
-              <div className="w-[100%] h-[auto] py-[20px]  bg-white/70 p-[20px] xs:w-[100%]">
+              <div className="w-[100%] h-[auto] py-[20px]  bg-white p-[20px] xs:w-[100%]">
                 <img src={rest2} alt="" className="w-[100%] h-[auto]" />
               </div>
-              <div className="lg:w-[900px] h-[auto] py-[20px]  bg-white/70 p-[20px] xs:w-[100%]">
+              <div className="lg:w-[900px] h-[auto] py-[20px]  bg-white p-[20px] xs:w-[100%]">
                 <img src={rest} alt="" className="w-[100%] h-[auto] " />
               </div>
               <div className="relative w-[100%] h-[500px] xs:w-[100%]">

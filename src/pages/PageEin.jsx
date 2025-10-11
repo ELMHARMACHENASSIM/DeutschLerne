@@ -23,7 +23,7 @@ const PageEin = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
-          <div className="w-[100%] flex justify-between items-center xs:text-[20px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px] lg:flex-row">
             <Link to={"/"} className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} /> <span>zurück</span>
@@ -40,8 +40,8 @@ const PageEin = () => {
                 Buckstaben und Zahlen
               </h1>
             </div>
-            <div className="lg:w-[100%] lg:flex lg:justify-between lg:items-center lg:flex-row gap-[20px] xs:flex-col">
-              <div className="lg:w-[600px] lg:h-[600px] xs:w-[100%] xs:h-[100%] ">
+            <div className="w-[100%] flex justify-between items-center flex-row gap-[20px] xs:flex-col">
+              <div className="w-[600px] h-[600px] lg:w-[400px] lg:h-[400px] xs:w-[100%] xs:h-[100%] ">
                 <img
                   src={imgOne}
                   alt=""
@@ -70,14 +70,14 @@ const PageEin = () => {
               </h1>
             </div>
 
-            <div className="w-[100%]  gap-[20px] bg-dark/70 p-[30px] text-white xs:text-[20px]">
-              <p>
+            <div className="w-[100%]  gap-[20px] bg-dark p-[30px] text-white xs:text-[20px]">
+              <p className="py-[10px]">
                 {" "}
                 Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
                 Zählen auf Deutsch ist einfach, wenn du es richtig machst!
               </p>
               <div className="font-pR text-[25px] grid lg:grid-cols-2 gap-[20px] xs:grid-cols-1">
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     1 = eins | 2 = zwei | 3 = drei | 4 = vier | 5 = fünf | 6 =
                     sechs | 7 = sieben | 8 = acht | 9 = neun | 10 = zehn
@@ -88,7 +88,7 @@ const PageEin = () => {
                     className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     11 = elf | 12 = zwölf | 13 = dreizehn | 14 = vierzehn | 15 =
                     fünfzehn | 16 = sechzehn | 17 = siebzehn | 18 = achtzehn |
@@ -100,7 +100,7 @@ const PageEin = () => {
                     className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     21 = einundzwanzig | 22 = zweiundzwanzig | 23 =
                     dreiundzwanzig | 24 = vierundzwanzig | 25 = fünfundzwanzig
@@ -111,7 +111,7 @@ const PageEin = () => {
                     className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     30 = dreißig | 31 = einunddreißig | 32 = zweiunddreißig | 33
                     = dreiunddreißig
@@ -122,7 +122,7 @@ const PageEin = () => {
                     className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     40 = vierzig | 50 = fünfzig | 60 = sechzig | 70 = siebzig |
                     80 = achtzig | 90 = neunzig | 50 = einhundert (hundert)
@@ -133,7 +133,7 @@ const PageEin = () => {
                     className="w-[50%] h-[60px] xs:w-[100%]"
                   ></audio>
                 </div>
-                <div className="py-[20px]">
+                <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     101 = einhunderteins  | 102 = einhundertzwei  | 103 =
                     einhundertdrei  | 110 = einhundertzehn  | 111 = einhundertelf  | 120
