@@ -21,7 +21,7 @@
   /* frontend */
   .Mycontainer {
     @apply w-[85%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
-    @apply xs:w-[90%] xs:ps-[10px] xs:pe-[10px]; /* small screens */
+    @apply xs:w-[95%] xs:ps-[10px] xs:pe-[10px]; /* small screens */
     @apply md:w-[90%] md:ps-[20px] md:pe-[20px]; /* medium screens */
     @apply lg:w-[90%] lg:ps-[20px] lg:pe-[20px]; /* large screens */
     @apply xl:w-[85%] xl:ps-[20px] xl:pe-[20px]; /* extra large screens */

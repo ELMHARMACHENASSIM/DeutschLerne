@@ -70,7 +70,7 @@ const PageEin = () => {
               </h1>
             </div>
 
-            <div className="w-[100%]  gap-[20px] bg-dark p-[30px] text-white xs:text-[20px]">
+            <div className="w-[100%]  gap-[20px] bg-dark p-[20px] text-white xs:text-[20px]">
               <p className="py-[10px]">
                 {" "}
                 Du musst nicht alle Zahlen auswendig lernen Es gibt ein System.
