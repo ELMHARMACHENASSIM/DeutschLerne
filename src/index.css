@@ -1,16 +1,6 @@
 @import "tailwindcss";
+/* نربط المتغيّرات ديال @theme مع custom media */
 
-@layer components {
-  /* frontend */
-  .Mycontainer {
-    @apply w-[85%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
-    @apply xs:w-[95%] xs:ps-[10px] xs:pe-[10px]; /* small screens */
-    @apply sm:w-[95%] sm:ps-[20px] sm:pe-[20px]; /* small screens */
-    @apply md:w-[90%] md:ps-[20px] md:pe-[20px]; /* medium screens */
-    @apply lg:w-[90%] lg:ps-[20px] lg:pe-[20px]; /* large screens */
-    @apply xl:w-[85%] xl:ps-[20px] xl:pe-[20px]; /* extra large screens */
-  }
-}
 @theme {
   --color-dark: #000;
   --color-white: #fff;
@@ -20,13 +10,23 @@
   --font-pB: "pB";
   --font-pR: "pR";
   --font-pL: "pL";
-  --breakpoint*: initial;
   --breakpoint-xs: 320px; /* Extra small phones */
+  --breakpoint-sm: 480px; /* Small phones */
   --breakpoint-md: 768px; /* Tablets */
   --breakpoint-lg: 976px; /* Small laptops */
-  --breakpoint-xl: 1200px; /* Desktop */
+  --breakpoint-xl: 1200px;
 }
 
+@layer components {
+  /* frontend */
+  .Mycontainer {
+    @apply w-[85%] ps-[20px] pe-[20px] ms-[auto] me-[auto];
+    @apply xs:w-[90%] xs:ps-[10px] xs:pe-[10px]; /* small screens */
+    @apply md:w-[90%] md:ps-[20px] md:pe-[20px]; /* medium screens */
+    @apply lg:w-[90%] lg:ps-[20px] lg:pe-[20px]; /* large screens */
+    @apply xl:w-[85%] xl:ps-[20px] xl:pe-[20px]; /* extra large screens */
+  }
+}
 @font-face {
   font-family: "pB";
   src: url(./assets/font/Poppins-Bold.ttf);

@@ -17,7 +17,7 @@ const PageZwei = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px] ">
-          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px]">
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px] lg:flex-row" >
             <Link to={"/page1"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]" >
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
@@ -37,7 +37,7 @@ const PageZwei = () => {
             </div>
             <div className="flex lg:justify-between lg:items-center lg:flex-row font-pR select-none xs:flex-col-reverse xs:gap-[20px]">
               <div className="flex-1">
-                <h1 className="lg:leading-[50px] xs:leading-[30px] xs:text-[20px]">
+                <h1 className="lg:leading-[30px] xs:leading-[30px] xs:text-[20px]">
                   Sich vorzustellen bedeutet, sich selbst einer Person oder
                   einer Gruppe vorzustellen, meistens durch die Angabe des
                   Namens, der Herkunft, des Wohnortes und des Berufs. Eine
@@ -46,7 +46,7 @@ const PageZwei = () => {
                   auftritt und klar und deutlich spricht.{" "}
                 </h1>
               </div>
-              <div className="lg:w-[700px] lg:h-{500px] xs:w-[100%] xs:h-[100%]">
+              <div className="lg:w-[400px] lg:h-{250px] xs:w-[100%] xs:h-[100%]">
                 <img
                   src={img4}
                   alt=""

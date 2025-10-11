@@ -40,7 +40,7 @@ const PageEin = () => {
                 Buckstaben und Zahlen
               </h1>
             </div>
-            <div className="w-[100%] flex justify-between items-center flex-row gap-[20px] xs:flex-col">
+            <div className="w-[100%] flex justify-between items-center lg:flex-row gap-[20px] xs:flex-col">
               <div className="w-[600px] h-[600px] lg:w-[400px] lg:h-[400px] xs:w-[100%] xs:h-[100%] ">
                 <img
                   src={imgOne}
