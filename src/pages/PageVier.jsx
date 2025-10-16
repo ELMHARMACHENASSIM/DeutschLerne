@@ -1,7 +1,7 @@
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
-import rest from "../assets/img/rest.png";
+import tabl from "../assets/img/tabl.svg";
 import rest2 from "../assets/img/rest2.svg";
 import bck from "../assets/img/bck.png";
 import img5 from "../assets/img/img5.jpg";
@@ -57,7 +57,7 @@ const PageVier = () => {
                 <img src={rest2} alt="" className="w-[100%] h-[auto]" />
               </div>
               <div className="lg:w-[900px] h-[auto] py-[20px]  bg-white p-[20px] xs:w-[100%]">
-                <img src={rest} alt="" className="w-[100%] h-[auto] " />
+                <img src={tabl} alt="" className="w-[100%] h-[auto] " />
               </div>
               <div className="relative w-[100%] h-[500px] xs:w-[100%]">
                 <div className="overlay bg-dark/50 w-[100%] h-[100%]  absolute top-0 left-0 z-1"></div>

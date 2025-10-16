@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1204.83 708.06">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1076.51 743.2">
   <defs>
     <style>
-      .cls-1 {
-        fill: red;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         stroke: #000;
         stroke-miterlimit: 10;
       }
@@ -15,17 +11,28 @@
         stroke-width: 2px;
       }
 
-      .cls-6 {
-        stroke-width: 0px;
+      .cls-1, .cls-6 {
+        fill: red;
       }
 
-      .cls-7, .cls-8 {
+      .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        isolation: isolate;
+      }
+
+      .cls-7, .cls-4, .cls-12, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-9 {
         font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-7, .cls-9, .cls-10 {
         font-size: 23.35px;
       }
 
-      .cls-7, .cls-4 {
-        fill: #fff;
+      .cls-13 {
+        stroke-width: 0px;
       }
 
       .cls-4 {
@@ -36,7 +43,16 @@
         fill: #ff0;
       }
 
-      .cls-9 {
+      .cls-12 {
+        font-size: 29.37px;
+      }
+
+      .cls-12, .cls-10 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-11 {
         font-family: Poppins-SemiBold, Poppins;
         font-size: 32.56px;
         font-weight: 600;
@@ -44,205 +60,218 @@
     </style>
   </defs>
   <g>
-    <rect class="cls-4" x="459.76" y="307.34" width="259.37" height="81.6"/>
-    <text class="cls-9" transform="translate(467.46 360.77)"><tspan x="0" y="0">Die Restaurant</tspan></text>
+    <g>
+      <rect class="cls-4" x="402.85" y="340.78" width="259.37" height="81.6"/>
+      <g class="cls-8">
+        <text class="cls-11" transform="translate(410.55 394.21)"><tspan x="0" y="0">Die Restaurant</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-2" x="78.51" y="145.87" width="183.75" height="82.23"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(87.23 174.28)"><tspan x="0" y="0">Die SpeiseKart</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(113.16 213.51)"><tspan x="0" y="0">das Menü</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(161.95 195.79)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="647.92" y="572.37" width="183.75" height="82.23"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(683.99 600.71)"><tspan x="0" y="0">vorspeise</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(674.16 639.94)"><tspan x="0" y="0">vorsgericht</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(731.36 622.23)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-2" x="431.43" y="583.73" width="183.25" height="87.32"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(446.3 613.49)"><tspan x="0" y="0">Hauptgericht</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(450.04 656.79)"><tspan x="0" y="0">Hauptspeise</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(514.61 638.05)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-5" x="1" y="569.83" width="183.25" height="87.32"/>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(32.96 599.6)"><tspan x="0" y="0">Die Speise</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(21.8 642.89)"><tspan x="0" y="0">Das Gericht</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(84.19 624.16)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="216.22" y="577.35" width="183.25" height="115.87"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(236.02 605.87)"><tspan x="0" y="0">Nachgericht</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(239.76 645.11)"><tspan x="0" y="0">Nachspeise</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(264.32 681.53)"><tspan x="0" y="0">Dessert</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(299.4 627.39)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(299.4 665.38)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="850.24" y="327.05" width="158.83" height="115.87"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(876.48 355.57)"><tspan x="0" y="0">bestellen</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(880.74 394.81)"><tspan x="0" y="0">nehmen</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(862.28 431.22)"><tspan x="0" y="0">bekommen</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(921.21 377.09)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(921.21 415.08)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="28.2" y="252.22" width="169.92" height="44.41"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(38.31 281.77)"><tspan x="0" y="0">Die Anzeigen</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="67.12" y="400.18" width="115.54" height="44.41"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(79.66 429.73)"><tspan x="0" y="0">Terasse</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="853.87" y="459.22" width="221.64" height="282.98"/>
+      <g>
+        <g class="cls-8">
+          <text class="cls-10" transform="translate(869.44 493.9)"><tspan x="0" y="0">Der Geschmack</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(929.89 522.99)"><tspan x="0" y="0">lecker</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(919.58 552.09)"><tspan x="0" y="0">Kostlich</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(929.66 581.18)"><tspan x="0" y="0">prima</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(900.55 610.27)"><tspan x="0" y="0">wonderbar</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(931.64 639.36)"><tspan x="0" y="0">super</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(943.18 668.45)"><tspan x="0" y="0">süß</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(931.64 726.64)"><tspan x="0" y="0">sauer</tspan></text>
+        </g>
+        <g class="cls-8">
+          <text class="cls-7" transform="translate(933.84 699.03)"><tspan x="0" y="0">bitter</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="43.73" y="333.36" width="138.85" height="44.41"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(60.35 362.91)"><tspan x="0" y="0">Der Tisch</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="43.76" y="478.58" width="138.8" height="44.41"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(59.77 508.13)"><tspan x="0" y="0">bezahlen</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-5" x="466.37" y="112.4" width="212.28" height="88.03"/>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(475.16 183.64)"><tspan x="0" y="0">Die Reservierung</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(564.07 165.07)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(499.01 143.16)"><tspan x="0" y="0">Die Buchung</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-5" x="701.94" y="134.21" width="159.95" height="44.41"/>
+      <g class="cls-8">
+        <text class="cls-9" transform="translate(723.03 163.76)"><tspan x="0" y="0">Das Essen</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="292.17" y="112.93" width="150.91" height="86.98"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(305.62 142.49)"><tspan x="0" y="0">Der Kellner</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(316 185.46)"><tspan x="0" y="0">Der Ober</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(359.19 163.71)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-1" x="825.1" y="186.99" width="150.91" height="121.04"/>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(847.82 214.39)"><tspan x="0" y="0">Der Gast.</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(847.38 255.32)"><tspan x="0" y="0">Die Klient</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(892.11 234.59)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(840.52 292.11)"><tspan x="0" y="0">Der Kunde</tspan></text>
+      </g>
+      <g class="cls-8">
+        <text class="cls-7" transform="translate(892.11 274.43)"><tspan x="0" y="0">=</tspan></text>
+      </g>
+    </g>
+    <line class="cls-6" x1="400.16" y1="337.99" x2="262.26" y2="228.1"/>
+    <line class="cls-6" x1="402.85" y1="340.78" x2="443.08" y2="202.12"/>
+    <line class="cls-6" x1="466.37" y1="200.43" x2="404.81" y2="340.78"/>
+    <line class="cls-6" x1="662.22" y1="340.78" x2="701.94" y2="178.62"/>
+    <line class="cls-6" x1="825.1" y1="186.99" x2="662.22" y2="345.34"/>
+    <line class="cls-6" x1="850.24" y1="327.05" x2="662.22" y2="347.66"/>
+    <line class="cls-6" x1="853.87" y1="459.22" x2="662.22" y2="422.38"/>
+    <line class="cls-6" x1="647.92" y1="572.37" x2="658.74" y2="422.38"/>
+    <line class="cls-6" x1="431.43" y1="583.73" x2="654.87" y2="422.38"/>
+    <line class="cls-6" x1="402.85" y1="422.38" x2="397.84" y2="577.35"/>
+    <line class="cls-6" x1="184.25" y1="569.83" x2="402.85" y2="419.28"/>
+    <line class="cls-6" x1="182.56" y1="478.58" x2="402.85" y2="416.95"/>
+    <line class="cls-6" x1="182.66" y1="400.18" x2="402.85" y2="412.7"/>
+    <line class="cls-6" x1="182.58" y1="333.36" x2="402.85" y2="343.79"/>
+    <line class="cls-6" x1="198.12" y1="296.63" x2="402.85" y2="345.34"/>
   </g>
   <g>
-    <rect class="cls-1" x="239.87" y="529.71" width="137.21" height="44.41"/>
-    <text class="cls-7" transform="translate(255.06 559.26)"><tspan x="0" y="0">servieren</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="258.57" y="662.66" width="118.51" height="44.41"/>
-    <text class="cls-7" transform="translate(273.01 692.21)"><tspan x="0" y="0">suppen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-2" x="1" y="1" width="183.75" height="82.23"/>
-    <text class="cls-7" transform="translate(9.72 29.41)"><tspan x="0" y="0">Die SpeiseKart</tspan></text>
-    <text class="cls-7" transform="translate(35.65 68.64)"><tspan x="0" y="0">das Menü</tspan></text>
-    <text class="cls-7" transform="translate(84.44 50.92)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="1" y="210.85" width="164.56" height="82.02"/>
-    <text class="cls-8" transform="translate(21.28 241.36)"><tspan x="0" y="0">Der Kellner</tspan></text>
-    <text class="cls-8" transform="translate(33.36 280.6)"><tspan x="0" y="0">Der ober</tspan></text>
-    <text class="cls-8" transform="translate(74.84 262.88)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1" y="106.61" width="183.75" height="82.23"/>
-    <text class="cls-7" transform="translate(37.07 134.95)"><tspan x="0" y="0">vorspeise</tspan></text>
-    <text class="cls-7" transform="translate(27.24 174.18)"><tspan x="0" y="0">vorsgericht</tspan></text>
-    <text class="cls-7" transform="translate(84.44 156.47)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-2" x="1" y="304.31" width="183.25" height="87.32"/>
-    <text class="cls-7" transform="translate(15.87 334.07)"><tspan x="0" y="0">Hauptgericht</tspan></text>
-    <text class="cls-7" transform="translate(19.61 377.37)"><tspan x="0" y="0">Hauptspeise</tspan></text>
-    <text class="cls-7" transform="translate(84.18 358.63)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="193.83" y="312.79" width="183.25" height="87.32"/>
-    <text class="cls-8" transform="translate(225.79 342.56)"><tspan x="0" y="0">Die Speise</tspan></text>
-    <text class="cls-8" transform="translate(214.63 385.85)"><tspan x="0" y="0">Das Gericht </tspan></text>
-    <text class="cls-8" transform="translate(277.02 367.12)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-6" x="193.83" y="420.21" width="183.25" height="87.32"/>
-    <text class="cls-7" transform="translate(218.36 449.98)"><tspan x="0" y="0">Die Summe</tspan></text>
-    <text class="cls-7" transform="translate(204.77 493.27)"><tspan x="0" y="0">Die Rechnung</tspan></text>
-    <text class="cls-7" transform="translate(277.02 474.54)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1" y="413.82" width="183.25" height="115.87"/>
-    <text class="cls-7" transform="translate(20.8 442.34)"><tspan x="0" y="0">Nachgericht</tspan></text>
-    <text class="cls-7" transform="translate(24.54 481.58)"><tspan x="0" y="0">Nachspeise</tspan></text>
-    <text class="cls-7" transform="translate(49.1 518)"><tspan x="0" y="0">Dessert</tspan></text>
-    <text class="cls-7" transform="translate(84.18 463.86)"><tspan x="0" y="0">=</tspan></text>
-    <text class="cls-7" transform="translate(84.18 501.85)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1044.83" y="68.89" width="158.83" height="115.87"/>
-    <text class="cls-7" transform="translate(1071.07 97.41)"><tspan x="0" y="0">bestellen</tspan></text>
-    <text class="cls-7" transform="translate(1075.33 136.65)"><tspan x="0" y="0">nehmen</tspan></text>
-    <text class="cls-7" transform="translate(1056.87 173.06)"><tspan x="0" y="0">bekommen</tspan></text>
-    <text class="cls-7" transform="translate(1115.8 118.93)"><tspan x="0" y="0">=</tspan></text>
-    <text class="cls-7" transform="translate(1115.8 156.92)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="773.33" y="61.17" width="98.38" height="44.41"/>
-    <text class="cls-7" transform="translate(786.46 90.73)"><tspan x="0" y="0">weich</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="773.33" y="1" width="63.98" height="44.41"/>
-    <text class="cls-8" transform="translate(785.92 30.55)"><tspan x="0" y="0">bar</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="1098.52" y="589.4" width="105.14" height="44.41"/>
-    <text class="cls-8" transform="translate(1114.04 618.95)"><tspan x="0" y="0">vegan</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="394.69" y="662.66" width="169.92" height="44.41"/>
-    <text class="cls-7" transform="translate(404.8 692.21)"><tspan x="0" y="0">Die Anzeigen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1088.12" y="523.24" width="115.54" height="44.41"/>
-    <text class="cls-7" transform="translate(1100.66 552.79)"><tspan x="0" y="0">Terasse</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="773.33" y="277.85" width="221.64" height="372.86"/>
-    <text class="cls-7" transform="translate(791.2 312.53)"><tspan x="0" y="0">Der Geschmack</tspan></text>
-    <text class="cls-7" transform="translate(849.35 341.62)"><tspan x="0" y="0">lecker</tspan></text>
-    <text class="cls-7" transform="translate(858.62 370.72)"><tspan x="0" y="0">heiß</tspan></text>
-    <text class="cls-7" transform="translate(860.33 399.81)"><tspan x="0" y="0">kühl</tspan></text>
-    <text class="cls-7" transform="translate(850.31 428.9)"><tspan x="0" y="0">warm</tspan></text>
-    <text class="cls-7" transform="translate(847.42 457.99)"><tspan x="0" y="0">scharf</tspan></text>
-    <text class="cls-7" transform="translate(862.64 487.08)"><tspan x="0" y="0">süß</tspan></text>
-    <text class="cls-7" transform="translate(851.22 516.17)"><tspan x="0" y="0">salzig</tspan></text>
-    <text class="cls-7" transform="translate(851.1 545.27)"><tspan x="0" y="0">sauer</tspan></text>
-    <text class="cls-7" transform="translate(855.55 574.36)"><tspan x="0" y="0">stark</tspan></text>
-    <text class="cls-7" transform="translate(853.3 603.45)"><tspan x="0" y="0">bitter</tspan></text>
-    <text class="cls-7" transform="translate(800.15 632.54)"><tspan x="0" y="0">Mineralwasser</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1038.28" y="205.95" width="165.38" height="44.41"/>
-    <text class="cls-7" transform="translate(1052.72 235.51)"><tspan x="0" y="0">öffnung zeit</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="413.72" y="1" width="138.85" height="44.41"/>
-    <text class="cls-7" transform="translate(430.34 30.55)"><tspan x="0" y="0">Der Tisch</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1032.86" y="390.9" width="170.8" height="44.41"/>
-    <text class="cls-7" transform="translate(1043.23 420.46)"><tspan x="0" y="0">Die Getränke</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1125.79" y="269.9" width="77.87" height="44.41"/>
-    <text class="cls-7" transform="translate(1137.4 299.45)"><tspan x="0" y="0">Preis</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="773.33" y="662.66" width="142.62" height="44.41"/>
-    <text class="cls-7" transform="translate(786.23 692.21)"><tspan x="0" y="0">Die Sahne</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="421.99" y="599.2" width="142.62" height="44.41"/>
-    <text class="cls-7" transform="translate(440.5 628.76)"><tspan x="0" y="0">Manager</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="861.34" y="1" width="131.61" height="44.41"/>
-    <text class="cls-7" transform="translate(877.83 30.56)"><tspan x="0" y="0">Ruhetag</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1074.76" y="655.57" width="129.08" height="44.41"/>
-    <text class="cls-7" transform="translate(1087.31 685.12)"><tspan x="0" y="0">Der Koch</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="584.89" y="1" width="138.8" height="44.41"/>
-    <text class="cls-7" transform="translate(600.9 30.55)"><tspan x="0" y="0">bezahlen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="773.33" y="177.79" width="212.28" height="88.03"/>
-    <text class="cls-8" transform="translate(782.12 249.03)"><tspan x="0" y="0">Die Reservierung</tspan></text>
-    <text class="cls-8" transform="translate(871.03 230.46)"><tspan x="0" y="0">=</tspan></text>
-    <text class="cls-8" transform="translate(805.97 208.55)"><tspan x="0" y="0">Die Buchung</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="773.33" y="117.09" width="135.46" height="44.41"/>
-    <text class="cls-7" transform="translate(790.53 146.64)"><tspan x="0" y="0">Der Chef</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="413.72" y="60.35" width="313.62" height="78.91"/>
-    <text class="cls-8" transform="translate(465.54 89.91)"><tspan x="0" y="0">öffnen≠ schließen</tspan></text>
-    <text class="cls-8" transform="translate(433.78 121.35)"><tspan x="0" y="0">geöffnet ≠ geschlossen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="217.14" y="1" width="159.95" height="44.41"/>
-    <text class="cls-8" transform="translate(238.23 30.55)"><tspan x="0" y="0">Das Essen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="226.17" y="64.93" width="150.91" height="86.98"/>
-    <text class="cls-7" transform="translate(239.62 94.49)"><tspan x="0" y="0">Der Kellner</tspan></text>
-    <text class="cls-7" transform="translate(250 137.46)"><tspan x="0" y="0">Der Ober</tspan></text>
-    <text class="cls-7" transform="translate(293.19 115.71)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="226.17" y="171.65" width="150.91" height="121.04"/>
-    <text class="cls-7" transform="translate(248.89 199.05)"><tspan x="0" y="0">Der Gast.</tspan></text>
-    <text class="cls-7" transform="translate(248.45 239.98)"><tspan x="0" y="0">Die Klient</tspan></text>
-    <text class="cls-7" transform="translate(293.18 219.25)"><tspan x="0" y="0">=</tspan></text>
-    <text class="cls-7" transform="translate(241.59 276.77)"><tspan x="0" y="0">Der Kunde</tspan></text>
-    <text class="cls-7" transform="translate(293.18 259.09)"><tspan x="0" y="0">=</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="1" y="543.98" width="178.6" height="44.41"/>
-    <text class="cls-8" transform="translate(12.02 573.54)"><tspan x="0" y="0">Das Trinkgeld</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1" y="662.66" width="159.95" height="44.41"/>
-    <text class="cls-7" transform="translate(12.55 692.21)"><tspan x="0" y="0">Das Wasser</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1" y="603.32" width="145.46" height="44.41"/>
-    <text class="cls-7" transform="translate(15.98 632.87)"><tspan x="0" y="0">Die Küche</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="240.07" y="599.2" width="137.01" height="44.41"/>
-    <text class="cls-8" transform="translate(254.87 628.76)"><tspan x="0" y="0">Das Tuch</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1030.55" y="1" width="173.11" height="44.41"/>
-    <text class="cls-7" transform="translate(1048.01 30.55)"><tspan x="0" y="0">Das Kochen</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-3" x="1137.64" y="336.06" width="66.02" height="44.41"/>
-    <text class="cls-7" transform="translate(1153.15 365.8)"><tspan x="0" y="0">Bio</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-1" x="1027.21" y="457.07" width="176.45" height="44.41"/>
-    <text class="cls-7" transform="translate(1044.85 486.62)"><tspan x="0" y="0">Der Feiertag</tspan></text>
-  </g>
-  <g>
-    <rect class="cls-5" x="580.74" y="620.75" width="159.95" height="86.31"/>
-    <text class="cls-8" transform="translate(624.19 646.63)"><tspan x="0" y="0">tester</tspan></text>
-    <text class="cls-8" transform="translate(604.03 691.31)"><tspan x="0" y="0">probeiren</tspan></text>
-    <text class="cls-8" transform="translate(651.24 669.35)"><tspan x="0" y="0">=</tspan></text>
+    <rect class="cls-13" x="1" width="458.4" height="48.77"/>
+    <text class="cls-12" transform="translate(13.8 32.75)"><tspan x="0" y="0">Das Restaurant besteht aus :</tspan></text>
   </g>
 </svg>

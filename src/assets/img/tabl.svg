@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1111.84 594.33">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 23.35px;
+      }
+
+      .cls-2, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-8 {
+        fill: red;
+      }
+
+      .cls-7 {
+        fill: #efef00;
+      }
+
+      .cls-8 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <path class="cls-5" d="M.5,54.67v539.66h1111.34V54.67H.5ZM369.95,591.33H3.5V130.99h366.45v460.34ZM369.95,127.99H3.5V57.67h366.45v70.32ZM739.39,591.33h-366.44V130.99h366.44v460.34ZM739.39,127.99h-366.44V57.67h366.44v70.32ZM1108.84,591.33h-366.45V130.99h366.45v460.34ZM1108.84,127.99h-366.45V57.67h366.45v70.32Z"/>
+        <rect class="cls-7" x="742.39" y="57.67" width="366.45" height="70.32"/>
+        <rect class="cls-6" x="372.95" y="57.67" width="366.44" height="70.32"/>
+        <rect class="cls-5" x="3.5" y="57.67" width="366.45" height="70.32"/>
+      </g>
+      <text class="cls-1" transform="translate(455.25 103.8)"><tspan x="0" y="0">Hauptspeise</tspan></text>
+      <text class="cls-3" transform="translate(836.71 103.8)"><tspan x="0" y="0">Nachspeise</tspan></text>
+      <text class="cls-1" transform="translate(104.22 103.8)"><tspan x="0" y="0">Vorspeise</tspan></text>
+    </g>
+    <text class="cls-3" transform="translate(34.39 213.59)"><tspan x="0" y="0">Suppe</tspan></text>
+    <text class="cls-3" transform="translate(34.39 271.07)"><tspan x="0" y="0">Salat</tspan></text>
+    <text class="cls-3" transform="translate(34.39 334.56)"><tspan x="0" y="0">Brötchen</tspan></text>
+    <text class="cls-3" transform="translate(34.39 398.04)"><tspan x="0" y="0">Gurkensalat</tspan></text>
+    <text class="cls-3" transform="translate(34.39 461.53)"><tspan x="0" y="0">Gemüsesuppe</tspan></text>
+    <text class="cls-3" transform="translate(34.39 525.01)"><tspan x="0" y="0">Tomaten-Mozzarella</tspan></text>
+    <text class="cls-3" transform="translate(399.81 213.59)"><tspan x="0" y="0">Schnitzel</tspan></text>
+    <text class="cls-3" transform="translate(399.81 271.07)"><tspan x="0" y="0">Kartoffelgratin</tspan></text>
+    <text class="cls-3" transform="translate(399.81 334.56)"><tspan x="0" y="0">Fisch mit Reis</tspan></text>
+    <text class="cls-3" transform="translate(399.81 398.04)"><tspan x="0" y="0">Rindersteak</tspan></text>
+    <text class="cls-3" transform="translate(399.81 461.53)"><tspan x="0" y="0">Pizza</tspan></text>
+    <text class="cls-3" transform="translate(399.81 525.01)"><tspan x="0" y="0">Lasagne</tspan></text>
+    <text class="cls-3" transform="translate(774.51 213.59)"><tspan x="0" y="0">Apfelstrudel</tspan></text>
+    <text class="cls-3" transform="translate(774.51 277.07)"><tspan x="0" y="0">Eis</tspan></text>
+    <text class="cls-3" transform="translate(774.52 340.56)"><tspan x="0" y="0">Kuchen</tspan></text>
+    <text class="cls-3" transform="translate(774.51 404.04)"><tspan x="0" y="0">Schokolade</tspan></text>
+    <text class="cls-3" transform="translate(774.51 467.53)"><tspan x="0" y="0">Obstsalat</tspan></text>
+    <text class="cls-3" transform="translate(774.52 531.01)"><tspan x="0" y="0">Tiramisu</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-8" x=".5" y=".5" width="328.02" height="42.58"/>
+    <g class="cls-4">
+      <text class="cls-2" transform="translate(9.45 30.02)"><tspan x="0" y="0">Die SpeiseKart = das Menü</tspan></text>
+    </g>
+  </g>
+</svg>

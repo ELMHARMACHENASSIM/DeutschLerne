@@ -38,15 +38,12 @@ const PageSechs = () => {
           </div>
           <div>
             <div className="bg-white p-[20px]">
-            <div className="lg:w-[100%]  xs:w-[100%] flex justify-between items-start gap-[20px]">
-                 <img src={artikl} alt="" className="w-[45%]" />
-              <img src={pers} alt="" className="w-[45%]" />
+            <div className="lg:w-[100%]  xs:w-[100%] flex justify-between items-start flex-col gap-[20px]">
+                 <img src={artikl} alt="" className="w-[100%]" />
+              <img src={pers} alt="" className="w-[100%]" />
             </div>
-              <div className="lg:w-[100%] p-[20px] xs:w-[100%] flex justify-between items-start gap-[20px]">
-                 <img src={artikl} alt="" className="w-[45%]" />
-              <img src={pers} alt="" className="w-[45%]" />
-            </div>
-            <div className=""> <img src={nomi} alt="" className="w-[50%]" /></div>
+         
+            <div className=""> <img src={nomi} alt="" className="w-[100%]" /></div>
             </div>
           </div>
         </div>

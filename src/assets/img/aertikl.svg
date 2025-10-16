@@ -1,107 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 696.33 425.09">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1113.03 425.09">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-3 {
-        stroke-width: 0px;
-      }
-
-      .cls-4 {
-        fill: none;
-        stroke: #b52025;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-5 {
+      .cls-1 {
         fill: #231f20;
         font-family: Poppins-Bold, Poppins;
         font-size: 20.98px;
         font-weight: 700;
       }
 
-      .cls-6 {
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #b52025;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
         fill: #fff;
       }
 
-      .cls-6, .cls-7 {
+      .cls-3, .cls-4 {
         font-family: Poppins-SemiBold, Poppins;
         font-size: 20.74px;
         font-weight: 600;
       }
 
-      .cls-2 {
+      .cls-6 {
         fill: #b52025;
       }
 
-      .cls-3 {
+      .cls-7 {
         fill: #ffe600;
       }
     </style>
   </defs>
-  <g>
-    <rect class="cls-2" x=".04" y="48.86" width="298.95" height="376.23"/>
-    <g>
-      <text class="cls-6" transform="translate(14.85 83.69)"><tspan x="0" y="0">Der :</tspan></text>
-      <g>
-        <text class="cls-6" transform="translate(88.88 134.06)"><tspan x="0" y="0">Tage und Monate</tspan></text>
-        <text class="cls-6" transform="translate(88.88 108.88)"><tspan x="0" y="0">Männliche</tspan></text>
-        <text class="cls-6" transform="translate(88.88 83.69)"><tspan x="0" y="0">Rechtungen</tspan></text>
-        <text class="cls-6" transform="translate(88.88 159.32)"><tspan x="0" y="0">Jobs</tspan></text>
-        <text class="cls-6" transform="translate(88.88 209.73)"><tspan x="0" y="0">us</tspan></text>
-        <text class="cls-6" transform="translate(88.88 184.52)"><tspan x="0" y="0">Jahreszeiten</tspan></text>
-        <text class="cls-6" transform="translate(88.88 234.94)"><tspan x="0" y="0">ling</tspan></text>
-        <text class="cls-6" transform="translate(88.88 260.15)"><tspan x="0" y="0">ies</tspan></text>
-        <text class="cls-6" transform="translate(88.88 285.36)"><tspan x="0" y="0">or</tspan></text>
-        <text class="cls-6" transform="translate(88.88 310.57)"><tspan x="0" y="0">eur</tspan></text>
-        <text class="cls-6" transform="translate(88.88 335.78)"><tspan x="0" y="0">us</tspan></text>
-      </g>
-    </g>
+  <rect class="cls-6" x=".04" y="48.86" width="455.7" height="229.8"/>
+  <g class="cls-2">
+    <text class="cls-3" transform="translate(14.85 83.69)"><tspan x="0" y="0">Der :</tspan></text>
   </g>
-  <g>
-    <rect class="cls-3" x="313.98" y="48.86" width="193.94" height="376.23"/>
-    <g>
-      <text class="cls-7" transform="translate(331.14 83.69)"><tspan x="0" y="0">Die :</tspan></text>
-      <g>
-        <text class="cls-7" transform="translate(405.17 83.69)"><tspan x="0" y="0">e</tspan></text>
-        <text class="cls-7" transform="translate(405.17 108.88)"><tspan x="0" y="0">ei</tspan></text>
-        <text class="cls-7" transform="translate(405.17 159.17)"><tspan x="0" y="0">keit</tspan></text>
-        <text class="cls-7" transform="translate(405.17 134.06)"><tspan x="0" y="0">heit</tspan></text>
-        <text class="cls-7" transform="translate(405.17 184.33)"><tspan x="0" y="0">schaft</tspan></text>
-        <text class="cls-7" transform="translate(405.17 209.49)"><tspan x="0" y="0">ung</tspan></text>
-        <text class="cls-7" transform="translate(405.17 234.66)"><tspan x="0" y="0">tat</tspan></text>
-        <text class="cls-7" transform="translate(405.17 259.82)"><tspan x="0" y="0">ik</tspan></text>
-        <text class="cls-7" transform="translate(405.17 284.98)"><tspan x="0" y="0">ur</tspan></text>
-        <text class="cls-7" transform="translate(405.17 310.14)"><tspan x="0" y="0">ion</tspan></text>
-        <text class="cls-7" transform="translate(405.17 335.3)"><tspan x="0" y="0">ie</tspan></text>
-        <text class="cls-7" transform="translate(405.17 360.46)"><tspan x="0" y="0">ette</tspan></text>
-        <text class="cls-7" transform="translate(405.17 385.62)"><tspan x="0" y="0">ade</tspan></text>
-        <text class="cls-7" transform="translate(405.17 410.78)"><tspan x="0" y="0">anz</tspan></text>
-      </g>
-    </g>
+  <g class="cls-2">
+    <text class="cls-3" transform="translate(88.88 83.69)"><tspan x="0" y="0">Männliche = Mann</tspan><tspan x="0" y="24.89">Tage und Monate = Montag - Juli</tspan><tspan x="0" y="49.78">Jahreszeiten = Sommer</tspan><tspan x="0" y="74.66">Jobs = Lehrer</tspan><tspan x="0" y="99.55">us = Zirkus</tspan><tspan x="0" y="124.44">ling = Schmetterling</tspan><tspan x="0" y="149.33">or = Motor</tspan><tspan x="0" y="174.22">eur = Friseur</tspan></text>
   </g>
-  <g>
-    <rect class="cls-1" x="522.9" y="48.86" width="173.43" height="376.23"/>
-    <g>
-      <text class="cls-6" transform="translate(537.72 83.69)"><tspan x="0" y="0">Das : </tspan></text>
-      <g>
-        <text class="cls-6" transform="translate(611.74 83.69)"><tspan x="0" y="0">chen</tspan></text>
-        <text class="cls-6" transform="translate(611.74 108.9)"><tspan x="0" y="0">lein</tspan></text>
-        <text class="cls-6" transform="translate(611.74 159.33)"><tspan x="0" y="0">ment</tspan></text>
-        <text class="cls-6" transform="translate(611.74 134.11)"><tspan x="0" y="0">erl</tspan></text>
-        <text class="cls-6" transform="translate(611.74 184.54)"><tspan x="0" y="0">niz</tspan></text>
-        <text class="cls-6" transform="translate(611.74 209.75)"><tspan x="0" y="0">um</tspan></text>
-        <text class="cls-6" transform="translate(611.74 234.96)"><tspan x="0" y="0">tum</tspan></text>
-        <text class="cls-6" transform="translate(611.74 260.17)"><tspan x="0" y="0">tel</tspan></text>
-        <text class="cls-6" transform="translate(611.74 285.39)"><tspan x="0" y="0">ing</tspan></text>
-        <text class="cls-6" transform="translate(611.74 310.6)"><tspan x="0" y="0">ma</tspan></text>
-        <text class="cls-6" transform="translate(611.74 335.81)"><tspan x="0" y="0">ette</tspan></text>
-        <text class="cls-6" transform="translate(611.74 361.02)"><tspan x="0" y="0">o</tspan></text>
-      </g>
-    </g>
+  <rect class="cls-7" x="455.74" y="48.86" width="340.26" height="376.23"/>
+  <g class="cls-2">
+    <text class="cls-4" transform="translate(468.14 83.69)"><tspan x="0" y="0">Die :</tspan></text>
   </g>
+  <g class="cls-2">
+    <text class="cls-4" transform="translate(542.17 83.69)"><tspan x="0" y="0">e = Blume</tspan><tspan x="0" y="24.89">ei = Bäckerei</tspan><tspan x="0" y="49.78">heit = Freiheit</tspan><tspan x="0" y="74.66">keit = Möglichkeit</tspan><tspan x="0" y="99.55">schaft = Freundschaft</tspan><tspan x="0" y="124.44">ung = Zeitung</tspan><tspan x="0" y="149.33">tät = Universität</tspan><tspan x="0" y="174.22">ik = Musik</tspan><tspan x="0" y="199.1">ur = Kultur</tspan><tspan x="0" y="223.99">ion = Nation</tspan><tspan x="0" y="248.88">ie = Familie</tspan><tspan x="0" y="273.77">ette = Kassette</tspan><tspan x="0" y="298.66">ade = Schokolade</tspan><tspan x="0" y="323.54">anz = Distanz</tspan></text>
+  </g>
+  <rect class="cls-5" x="796" y="48.86" width="317.03" height="302.97"/>
+  <g class="cls-2">
+    <text class="cls-3" transform="translate(808.72 83.69)"><tspan x="0" y="0">Das :</tspan></text>
+  </g>
+  <text class="cls-3" transform="translate(882.74 83.69)"><tspan x="0" y="0">chen = Mädchen</tspan><tspan x="0" y="24.89">lein = Fräulein</tspan><tspan x="0" y="49.78">ment = Instrument</tspan><tspan x="0" y="74.66">nis = Ergebnis</tspan><tspan x="0" y="99.55">um = Zentrum</tspan><tspan x="0" y="124.44">tum = Eigentum</tspan><tspan x="0" y="149.33">tel = Viertel</tspan><tspan x="0" y="174.22">ing = Training</tspan><tspan x="0" y="199.1">ma = Thema</tspan><tspan x="0" y="223.99">ette = Baguette</tspan><tspan x="0" y="248.88">o = Kino</tspan></text>
   <g>
-    <text class="cls-5" transform="translate(5.98 21.71)"><tspan x="0" y="0">Artikel im Deutschen</tspan></text>
-    <rect class="cls-4" x="1" y="1" width="233.18" height="26.97"/>
+    <g class="cls-2">
+      <text class="cls-1" transform="translate(5.98 21.71)"><tspan x="0" y="0">Artikel im Deutschen</tspan></text>
+    </g>
+    <rect class="cls-8" x="1" y="1" width="233.18" height="26.97"/>
   </g>
 </svg>
