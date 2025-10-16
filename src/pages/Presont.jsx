@@ -26,7 +26,7 @@ const Presont = () => {
               deutsh lernen wollen Brauchen wir ein wörtebuck und bücher .Es ist
               auch sehr wichtig Deutch zu hören und zu sprechen oder shreiben
               und jetzt Meine kommilitonnen und ich halten ein presentation Über
-              die deutch shprakhe wir zuerst lernen
+              die deutch shprakhe wir zuerst lernen
             </p>
             <Link
               to={"/home"}

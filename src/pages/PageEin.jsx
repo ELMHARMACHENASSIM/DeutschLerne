@@ -56,12 +56,15 @@ const PageEin = () => {
                   Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo,
                   Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
                   <span className="text-red">Ää, Öö, Üü, ß</span>
+                  
                 </div>
+                <div className="text-[25px] font-pB"><h1 >Und jetzt hören wir die Aussprache der Buchshtaben</h1></div>
                 <audio
                   src={song0}
                   controls
-                  className="w-[100%] h-[90px] xs:h-[50px]"
+                  className="w-[100%] h-[90px] xs:h-[50px] py-[10px]"
                 ></audio>
+                <div className="text-[25px] font-pB"><h1>Das war der abshnit üner die buchkstaben</h1></div>
               </div>
             </div>
             <div className="py-[20px]">
@@ -125,7 +128,7 @@ const PageEin = () => {
                 <div className="p-[20px] border-[1px] border-white/50">
                   <p className="font-pR text-[20px] py-[5px]">
                     40 = vierzig | 50 = fünfzig | 60 = sechzig | 70 = siebzig |
-                    80 = achtzig | 90 = neunzig | 50 = einhundert (hundert)
+                    80 = achtzig | 90 = neunzig | 100 = einhundert (hundert)
                   </p>
                   <audio
                     src={song5}
