@@ -5,7 +5,7 @@ const Presont = () => {
   return (
     <>
       <div
-        className="w-[100%] h-[100vh]"
+        className="w-[100%] lg:h-[100vh] xs:h-[100vh]"
         style={{
           backgroundImage: `url(${backgr})`,
           backgroundRepeat: "no-repeat",
@@ -13,8 +13,8 @@ const Presont = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="Mycontainer  h-[100%] py-[50px]  text-[20px] flex justify-between items-center ">
-          <div className="text-white lg:w-[50%] xs:w-[100%] flex justify-start items-start flex-col gap-[20px] p-[50px] ">
+        <div className="Mycontainer  h-[100%] py-[50px]  text-[20px] flex justify-between items-center lg:flex-row xs:flex-col-reverse ">
+          <div className="text-white lg:w-[50%] xs:w-[100%] flex justify-start items-start flex-col gap-[20px] lg:p-[50px] xs:p-[20px]  ">
             <p className="w-[100%]  font-pR text-[20px]">
               Hallo zusammen ich bin froh heute zu sein .Danke an meine lehrerin
               und meine freunde für ihre Anwesenkit Also heute spreche ich über
@@ -30,13 +30,13 @@ const Presont = () => {
             </p>
             <Link
               to={"/home"}
-              className="border-white border-[2px] px-[30px] py-[5px] text-[30px] font-pR"
+              className="border-white border-[2px] px-[35px] py-[5px] text-[20px] font-pR"
             >
               {" "}
               Start
             </Link>
           </div>
-          <div className="w-[50%] h-[100%]">
+          <div className="w-[50%] h-[100%] lg:flex xs:hidden ">
             <img src={homeimg} alt="" className="w-[100%] h-[100%]" />
           </div>
         </div>

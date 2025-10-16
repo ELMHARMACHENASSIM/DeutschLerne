@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1081.44 931.73">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1079.6 931.73">
   <defs>
     <style>
       .cls-1, .cls-2 {
@@ -86,196 +86,196 @@
   </defs>
   <g>
     <g class="cls-4">
-      <text class="cls-2" transform="translate(7.82 21.71)"><tspan x="0" y="0">nominativ und akkusativ</tspan></text>
+      <text class="cls-2" transform="translate(5.98 21.71)"><tspan x="0" y="0">nominativ und akkusativ</tspan></text>
     </g>
-    <rect class="cls-15" x="2.84" y="1" width="282.52" height="26.97"/>
+    <rect class="cls-15" x="1" y="1" width="282.52" height="26.97"/>
   </g>
   <g>
     <g>
-      <path class="cls-20" d="M11.99,160.48v190.5h460.55v-190.5H11.99ZM471.74,350.19H12.78v-188.91h458.95v188.91Z"/>
-      <rect class="cls-18" x="12.78" y="161.28" width="48.12" height="188.91"/>
+      <path class="cls-20" d="M10.14,160.48v190.5h460.55v-190.5H10.14ZM469.89,350.19H10.94v-188.91h458.95v188.91Z"/>
+      <rect class="cls-18" x="10.94" y="161.28" width="48.12" height="188.91"/>
     </g>
-    <rect class="cls-20" x="60.91" y="119.3" width=".8" height="231.28"/>
-    <rect class="cls-20" x="163.61" y="119.3" width=".8" height="231.28"/>
-    <rect class="cls-20" x="61.3" y="350.19" width="660.15" height=".8"/>
-    <rect class="cls-20" x="61.3" y="286.96" width="660.15" height=".8"/>
-    <rect class="cls-20" x="61.3" y="160.48" width="660.15" height=".8"/>
+    <rect class="cls-20" x="59.06" y="119.3" width=".8" height="231.28"/>
+    <rect class="cls-20" x="161.76" y="119.3" width=".8" height="231.28"/>
+    <rect class="cls-20" x="59.46" y="350.19" width="660.15" height=".8"/>
+    <rect class="cls-20" x="59.46" y="286.96" width="660.15" height=".8"/>
+    <rect class="cls-20" x="59.46" y="160.48" width="660.15" height=".8"/>
     <g>
-      <rect class="cls-20" x="61.7" y="119.7" width="101.91" height="40.78"/>
-      <rect class="cls-20" x="61.3" y="118.91" width="410.83" height=".8"/>
+      <rect class="cls-20" x="59.86" y="119.7" width="101.91" height="40.78"/>
+      <rect class="cls-20" x="59.46" y="118.91" width="410.83" height=".8"/>
     </g>
-    <rect class="cls-20" x="61.3" y="223.72" width="660.15" height=".8"/>
+    <rect class="cls-20" x="59.46" y="223.72" width="660.15" height=".8"/>
     <g>
-      <rect class="cls-20" x="164.4" y="119.7" width="101.91" height="40.78"/>
-      <rect class="cls-20" x="266.32" y="119.3" width=".8" height="231.28"/>
-    </g>
-    <g>
-      <rect class="cls-20" x="267.11" y="119.7" width="101.91" height="40.78"/>
-      <rect class="cls-20" x="369.03" y="119.3" width=".8" height="231.28"/>
+      <rect class="cls-20" x="162.56" y="119.7" width="101.91" height="40.78"/>
+      <rect class="cls-20" x="264.47" y="119.3" width=".8" height="231.28"/>
     </g>
     <g>
-      <rect class="cls-20" x="369.82" y="119.7" width="101.91" height="40.78"/>
-      <rect class="cls-20" x="471.74" y="119.3" width=".8" height="231.28"/>
+      <rect class="cls-20" x="265.27" y="119.7" width="101.91" height="40.78"/>
+      <rect class="cls-20" x="367.18" y="119.3" width=".8" height="231.28"/>
     </g>
     <g>
-      <rect class="cls-19" x="472.53" y="161.28" width="248.52" height="62.44"/>
-      <rect class="cls-19" x="472.53" y="224.51" width="248.52" height="62.45"/>
-      <rect class="cls-19" x="472.53" y="287.75" width="248.52" height="62.44"/>
-      <rect class="cls-20" x="721.06" y="160.48" width=".8" height="190.1"/>
+      <rect class="cls-20" x="367.98" y="119.7" width="101.91" height="40.78"/>
+      <rect class="cls-20" x="469.89" y="119.3" width=".8" height="231.28"/>
+    </g>
+    <g>
+      <rect class="cls-19" x="470.69" y="161.28" width="248.52" height="62.44"/>
+      <rect class="cls-19" x="470.69" y="224.51" width="248.52" height="62.45"/>
+      <rect class="cls-19" x="470.69" y="287.75" width="248.52" height="62.44"/>
+      <rect class="cls-20" x="719.21" y="160.48" width=".8" height="190.1"/>
     </g>
   </g>
   <g class="cls-4">
-    <text class="cls-1" transform="translate(43.9 304.25) rotate(-90)"><tspan x="0" y="0">nominativ</tspan></text>
+    <text class="cls-1" transform="translate(42.05 304.25) rotate(-90)"><tspan x="0" y="0">nominativ</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(95.61 200.1)"><tspan x="0" y="0">Der</tspan></text>
+    <text class="cls-3" transform="translate(93.76 200.1)"><tspan x="0" y="0">Der</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(97.34 264.16)"><tspan x="0" y="0">ein</tspan></text>
+    <text class="cls-3" transform="translate(95.49 264.16)"><tspan x="0" y="0">ein</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(92.05 325.75)"><tspan x="0" y="0">kein</tspan></text>
+    <text class="cls-3" transform="translate(90.2 325.75)"><tspan x="0" y="0">kein</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(300.23 264.16)"><tspan x="0" y="0">ein</tspan></text>
+    <text class="cls-3" transform="translate(298.39 264.16)"><tspan x="0" y="0">ein</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-5" transform="translate(482.78 264.16)"><tspan x="0" y="0">unbestimmtem Artikel</tspan></text>
+    <text class="cls-5" transform="translate(480.93 264.16)"><tspan x="0" y="0">unbestimmtem Artikel</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(294.94 325.75)"><tspan x="0" y="0">kein</tspan></text>
+    <text class="cls-3" transform="translate(293.1 325.75)"><tspan x="0" y="0">kein</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(194.42 264.16)"><tspan x="0" y="0">eine</tspan></text>
+    <text class="cls-3" transform="translate(192.58 264.16)"><tspan x="0" y="0">eine</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(189.14 325.75)"><tspan x="0" y="0">keine</tspan></text>
+    <text class="cls-3" transform="translate(187.29 325.75)"><tspan x="0" y="0">keine</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(395.13 325.75)"><tspan x="0" y="0">keine</tspan></text>
+    <text class="cls-3" transform="translate(393.29 325.75)"><tspan x="0" y="0">keine</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-5" transform="translate(482.78 325.75)"><tspan x="0" y="0">Negationsartikel</tspan></text>
+    <text class="cls-5" transform="translate(480.93 325.75)"><tspan x="0" y="0">Negationsartikel</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(199.74 200.1)"><tspan x="0" y="0">Die</tspan></text>
+    <text class="cls-3" transform="translate(197.9 200.1)"><tspan x="0" y="0">Die</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(296.5 200.1)"><tspan x="0" y="0">Das</tspan></text>
+    <text class="cls-3" transform="translate(294.66 200.1)"><tspan x="0" y="0">Das</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-3" transform="translate(405.74 200.1)"><tspan x="0" y="0">Die</tspan></text>
+    <text class="cls-3" transform="translate(403.89 200.1)"><tspan x="0" y="0">Die</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-5" transform="translate(482.78 200.1)"><tspan x="0" y="0">bestimmtem Artike</tspan></text>
+    <text class="cls-5" transform="translate(480.93 200.1)"><tspan x="0" y="0">bestimmtem Artike</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-6" transform="translate(107.03 151.98)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-6" transform="translate(105.18 151.98)"><tspan x="0" y="0">M</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-6" transform="translate(206.5 151.98)"><tspan x="0" y="0">F</tspan></text>
+    <text class="cls-6" transform="translate(204.65 151.98)"><tspan x="0" y="0">F</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-6" transform="translate(307.96 151.98)"><tspan x="0" y="0">N</tspan></text>
+    <text class="cls-6" transform="translate(306.11 151.98)"><tspan x="0" y="0">N</tspan></text>
   </g>
   <g class="cls-4">
-    <text class="cls-6" transform="translate(415.23 151.98)"><tspan x="0" y="0">P</tspan></text>
+    <text class="cls-6" transform="translate(413.39 151.98)"><tspan x="0" y="0">P</tspan></text>
   </g>
-  <path class="cls-19" d="M429.82,248.42l.6-.6.6-.6,2.72-2.72-.8-.8-.8-.8-3.31,3.31-.6.6c-.48-.39-.99-.74-1.54-1.05-1.73-.96-3.68-1.46-5.78-1.46s-4,.49-5.74,1.46c-1.73.97-3.12,2.34-4.13,4.06-1.01,1.73-1.52,3.7-1.52,5.89s.52,4.17,1.53,5.9c.29.51.62.98.98,1.42l-.6.6-.6.6-2.74,2.74.8.8.8.8,3.93-3.93c.49.4,1,.76,1.55,1.06.87.49,1.79.85,2.74,1.1.96.24,1.97.37,3,.37,2.1,0,4.04-.49,5.78-1.46,1.73-.96,3.12-2.34,4.11-4.07,1-1.73,1.5-3.72,1.5-5.9s-.51-4.16-1.5-5.89c-.29-.51-.62-.98-.98-1.42v-.02ZM413.48,261.58c-.18-.25-.33-.53-.47-.8-.76-1.46-1.15-3.17-1.15-5.07s.39-3.6,1.15-5.04c.77-1.46,1.86-2.62,3.24-3.41,1.36-.79,2.94-1.19,4.66-1.19s3.29.4,4.66,1.19c.47.26.9.57,1.3.92l-13.38,13.38h0ZM428.81,260.77c-.77,1.48-1.86,2.64-3.23,3.44-1.36.8-2.94,1.2-4.66,1.2s-3.29-.41-4.66-1.2c-.47-.27-.9-.58-1.29-.93l12.78-12.78.61-.61c.16.25.32.51.46.78.76,1.46,1.15,3.15,1.15,5.04s-.39,3.6-1.15,5.07h-.02Z"/>
+  <path class="cls-19" d="M427.98,248.42l.6-.6.6-.6,2.72-2.72-.8-.8-.8-.8-3.31,3.31-.6.6c-.48-.39-.99-.74-1.54-1.05-1.73-.96-3.68-1.46-5.78-1.46s-4,.49-5.74,1.46c-1.73.97-3.12,2.34-4.13,4.06-1.01,1.73-1.52,3.7-1.52,5.89s.52,4.17,1.53,5.9c.29.51.62.98.98,1.42l-.6.6-.6.6-2.74,2.74.8.8.8.8,3.93-3.93c.49.4,1,.76,1.55,1.06.87.49,1.79.85,2.74,1.1.96.24,1.97.37,3,.37,2.1,0,4.04-.49,5.78-1.46,1.73-.96,3.12-2.34,4.11-4.07,1-1.73,1.5-3.72,1.5-5.9s-.51-4.16-1.5-5.89c-.29-.51-.62-.98-.98-1.42v-.02ZM411.64,261.58c-.18-.25-.33-.53-.47-.8-.76-1.46-1.15-3.17-1.15-5.07s.39-3.6,1.15-5.04c.77-1.46,1.86-2.62,3.24-3.41,1.36-.79,2.94-1.19,4.66-1.19s3.29.4,4.66,1.19c.47.26.9.57,1.3.92l-13.38,13.38h0ZM426.97,260.77c-.77,1.48-1.86,2.64-3.23,3.44-1.36.8-2.94,1.2-4.66,1.2s-3.29-.41-4.66-1.2c-.47-.27-.9-.58-1.29-.93l12.78-12.78.61-.61c.16.25.32.51.46.78.76,1.46,1.15,3.15,1.15,5.04s-.39,3.6-1.15,5.07h-.02Z"/>
   <g>
     <g class="cls-4">
-      <text class="cls-8" transform="translate(13.9 393.53)"><tspan x="0" y="0">M</tspan></text>
+      <text class="cls-8" transform="translate(12.06 393.53)"><tspan x="0" y="0">M</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-8" transform="translate(213.55 393.53)"><tspan x="0" y="0">F</tspan></text>
+      <text class="cls-8" transform="translate(211.7 393.53)"><tspan x="0" y="0">F</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-8" transform="translate(415.87 393.53)"><tspan x="0" y="0">N</tspan></text>
+      <text class="cls-8" transform="translate(414.02 393.53)"><tspan x="0" y="0">N</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-8" transform="translate(631.89 393.53)"><tspan x="0" y="0">P</tspan></text>
+      <text class="cls-8" transform="translate(630.05 393.53)"><tspan x="0" y="0">P</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(13.9 422.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(83.21 422.73)"><tspan x="0" y="0">der </tspan></text>
-      <text class="cls-7" transform="translate(120.42 422.73)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(12.06 422.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(81.37 422.73)"><tspan x="0" y="0">der </tspan></text>
+      <text class="cls-7" transform="translate(118.58 422.73)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(13.9 446.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(83.21 446.73)"><tspan x="0" y="0">ein </tspan></text>
-      <text class="cls-7" transform="translate(117.57 446.73)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(12.06 446.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(81.37 446.73)"><tspan x="0" y="0">ein </tspan></text>
+      <text class="cls-7" transform="translate(115.72 446.73)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(13.9 470.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(83.21 470.73)"><tspan x="0" y="0">kein </tspan></text>
-      <text class="cls-7" transform="translate(128.2 470.73)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(12.06 470.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(81.37 470.73)"><tspan x="0" y="0">kein </tspan></text>
+      <text class="cls-7" transform="translate(126.35 470.73)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(213.55 422.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(282.86 422.73)"><tspan x="0" y="0">die </tspan></text>
-      <text class="cls-7" transform="translate(317.77 422.73)"><tspan x="0" y="0">Frau</tspan></text>
+      <text class="cls-7" transform="translate(211.7 422.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(281.01 422.73)"><tspan x="0" y="0">die </tspan></text>
+      <text class="cls-7" transform="translate(315.92 422.73)"><tspan x="0" y="0">Frau</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(213.55 446.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(282.86 446.73)"><tspan x="0" y="0">eine </tspan></text>
-      <text class="cls-7" transform="translate(329.05 446.73)"><tspan x="0" y="0">Frau</tspan></text>
+      <text class="cls-7" transform="translate(211.7 446.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(281.01 446.73)"><tspan x="0" y="0">eine </tspan></text>
+      <text class="cls-7" transform="translate(327.21 446.73)"><tspan x="0" y="0">Frau</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(213.55 470.73)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(282.86 470.73)"><tspan x="0" y="0" xml:space="preserve">keine  </tspan></text>
-      <text class="cls-7" transform="translate(344.67 470.73)"><tspan x="0" y="0">Frau</tspan></text>
+      <text class="cls-7" transform="translate(211.7 470.73)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(281.01 470.73)"><tspan x="0" y="0" xml:space="preserve">keine  </tspan></text>
+      <text class="cls-7" transform="translate(342.83 470.73)"><tspan x="0" y="0">Frau</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(415.87 424.63)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(485.17 424.63)"><tspan x="0" y="0">das </tspan></text>
-      <text class="cls-7" transform="translate(526.44 424.63)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(414.02 424.63)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(483.33 424.63)"><tspan x="0" y="0">das </tspan></text>
+      <text class="cls-7" transform="translate(524.6 424.63)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(415.87 448.63)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(485.17 448.63)"><tspan x="0" y="0">ein </tspan></text>
-      <text class="cls-7" transform="translate(519.53 448.63)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(414.02 448.63)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(483.33 448.63)"><tspan x="0" y="0">ein </tspan></text>
+      <text class="cls-7" transform="translate(517.69 448.63)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(415.87 472.64)"><tspan x="0" y="0">Das ist </tspan></text>
-      <text class="cls-9" transform="translate(485.17 472.64)"><tspan x="0" y="0">kein </tspan></text>
-      <text class="cls-7" transform="translate(530.16 472.64)"><tspan x="0" y="0">Manne</tspan></text>
+      <text class="cls-7" transform="translate(414.02 472.64)"><tspan x="0" y="0">Das ist </tspan></text>
+      <text class="cls-9" transform="translate(483.33 472.64)"><tspan x="0" y="0">kein </tspan></text>
+      <text class="cls-7" transform="translate(528.32 472.64)"><tspan x="0" y="0">Manne</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(631.89 424.63)"><tspan x="0" y="0">Das sind </tspan></text>
-      <text class="cls-9" transform="translate(719.53 424.63)"><tspan x="0" y="0">die </tspan></text>
-      <text class="cls-7" transform="translate(754.44 424.63)"><tspan x="0" y="0">Kinder</tspan></text>
+      <text class="cls-7" transform="translate(630.05 424.63)"><tspan x="0" y="0">Das sind </tspan></text>
+      <text class="cls-9" transform="translate(717.68 424.63)"><tspan x="0" y="0">die </tspan></text>
+      <text class="cls-7" transform="translate(752.59 424.63)"><tspan x="0" y="0">Kinder</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(631.89 448.63)"><tspan x="0" y="0">Das sind Kinder</tspan></text>
+      <text class="cls-7" transform="translate(630.05 448.63)"><tspan x="0" y="0">Das sind Kinder</tspan></text>
     </g>
     <g class="cls-4">
-      <text class="cls-7" transform="translate(631.89 472.64)"><tspan x="0" y="0">Das sind </tspan></text>
-      <text class="cls-9" transform="translate(719.53 472.64)"><tspan x="0" y="0">keine </tspan></text>
-      <text class="cls-7" transform="translate(776.36 472.64)"><tspan x="0" y="0">Kinder</tspan></text>
+      <text class="cls-7" transform="translate(630.05 472.64)"><tspan x="0" y="0">Das sind </tspan></text>
+      <text class="cls-9" transform="translate(717.68 472.64)"><tspan x="0" y="0">keine </tspan></text>
+      <text class="cls-7" transform="translate(774.51 472.64)"><tspan x="0" y="0">Kinder</tspan></text>
     </g>
   </g>
-  <rect class="cls-17" y="54.66" width="175.84" height="39.57"/>
-  <text class="cls-13" transform="translate(11.99 78.69)"><tspan x="0" y="0">was ist Nominativ ?</tspan></text>
-  <text class="cls-21" transform="translate(234.49 68.15)"><tspan x="0" y="0">Nominativ Die Anwesenheit des subjekts im satz </tspan><tspan x="0" y="25.87">Articles: Der / Das / Die /Die</tspan></text>
-  <text class="cls-21" transform="translate(13.9 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Der Mann hört Musik </tspan></tspan><tspan x="0" y="25.87">( wo steht Das Subjekts im satz)</tspan><tspan x="0" y="51.74">Der Mann = Nominativ</tspan></text>
-  <text class="cls-21" transform="translate(34.91 637.25)"><tspan class="cls-16"><tspan x="0" y="0">In Nominativ wir fragen nach den weisen : Wir </tspan></tspan><tspan x="0" y="25.87">Wir hört Musik?</tspan><tspan x="0" y="51.74">Der Mann </tspan></text>
-  <text class="cls-21" transform="translate(420.9 637.25)"><tspan class="cls-16"><tspan x="0" y="0">Und über Die sache Die wir fragen: Was </tspan></tspan><tspan x="0" y="25.87">Die stadt ist groß</tspan><tspan x="0" y="51.74">Was ist groß ?</tspan></text>
-  <text class="cls-21" transform="translate(600.65 663.83)"><tspan x="0" y="0">Das Auto ist neu  </tspan><tspan x="0" y="25.87">Was ist neu?</tspan></text>
-  <text class="cls-21" transform="translate(298.23 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Die Frau liest Das Buch </tspan></tspan><tspan x="0" y="25.87">Die Frau = Nominativ</tspan></text>
-  <text class="cls-21" transform="translate(550.94 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Das Kind kauft einen apfel </tspan></tspan><tspan x="0" y="25.87">Das kind = Nominativ</tspan></text>
-  <text class="cls-21" transform="translate(187.52 78.69)"><tspan x="0" y="0">==&gt;</tspan></text>
-  <rect class="cls-17" x="16.33" y="718.63" width="358.01" height="110.39"/>
-  <rect class="cls-14" x="16.33" y="606.59" width="752.34" height="101.18"/>
-  <text class="cls-21" transform="translate(23.75 740.32)"><tspan class="cls-12"><tspan x="0" y="0">Wir haben 5 verben immer mit Nominativ :</tspan></tspan><tspan class="cls-24" x="0" y="25.87">Sein </tspan><tspan x="37.11" y="25.87">/ </tspan><tspan class="cls-24" x="48.29" y="25.87">Werden </tspan><tspan x="113.76" y="25.87">/ </tspan><tspan class="cls-24" x="124.94" y="25.87">Scheinen </tspan><tspan x="201.3" y="25.87">/ </tspan><tspan class="cls-24" x="212.48" y="25.87">Heißen </tspan><tspan x="272.02" y="25.87">/ </tspan><tspan class="cls-24" x="283.2" y="25.87">Bleiben</tspan><tspan class="cls-12"><tspan x="0" y="51.74">Wenn wir diese Verben sehen,</tspan></tspan><tspan class="cls-12"><tspan x="0" y="77.61">kennen wir den Satz Nominativ</tspan></tspan></text>
-  <rect class="cls-18" x="379.51" y="718.63" width="701.94" height="89.42"/>
-  <text class="cls-22" transform="translate(386.81 739.7)"><tspan class="cls-10" x="0" y="0">eine Übung : was oder wir?</tspan><tspan class="cls-23" x="209.21" y="0"> </tspan></text>
-  <text class="cls-21" transform="translate(552.11 766.34)"><tspan x="0" y="0">-Hans ist verheiratet </tspan><tspan x="0" y="25.87" xml:space="preserve">              ist verheiratet?</tspan></text>
-  <text class="cls-21" transform="translate(386.81 766.34)"><tspan x="0" y="0">-Peter ist in berlin </tspan><tspan x="0" y="25.87" xml:space="preserve">              ist berlin ?</tspan></text>
-  <rect class="cls-18" x="379.51" y="814.27" width="643.1" height="117.46"/>
-  <text class="cls-11" transform="translate(386.81 834.98)"><tspan x="0" y="0">Eine Übung: Der/ Das / Die </tspan></text>
-  <text class="cls-21" transform="translate(386.81 861.62)"><tspan x="0" y="0" xml:space="preserve"> …… Bus kommt . / …….. Glas ist sehr lecker  / - Wo ist …….     Zeitung?</tspan></text>
-  <text class="cls-11" transform="translate(386.81 893.82)"><tspan x="0" y="0">Eine Übung: ein / ein/ eine :</tspan></text>
-  <text class="cls-21" transform="translate(386.81 920.46)"><tspan x="0" y="0" xml:space="preserve">Das ist …. Computer . / Das sind Studenten .  ……. Studenten kommen aus kanada</tspan></text>
-  <text class="cls-21" transform="translate(736.79 766.34)"><tspan x="0" y="0">-Die Uni ist in Bonn </tspan><tspan x="0" y="25.87" xml:space="preserve">            ist in Bonn ?</tspan></text>
-  <text class="cls-21" transform="translate(910.81 766.34)"><tspan x="0" y="0">-Die schule ist groß </tspan><tspan x="0" y="25.87" xml:space="preserve">               Ist groß?</tspan></text>
+  <rect class="cls-17" x="5.98" y="54.66" width="175.84" height="39.57"/>
+  <text class="cls-13" transform="translate(17.97 78.69)"><tspan x="0" y="0">was ist Nominativ ?</tspan></text>
+  <text class="cls-21" transform="translate(240.47 68.15)"><tspan x="0" y="0">Der Nominativ hebt das Subjekt hervor. </tspan><tspan x="0" y="25.87">Die W-Frage lautet &quot;wer?&quot; bei Personen und &quot;was?&quot; bei Sachen</tspan></text>
+  <text class="cls-21" transform="translate(12.06 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Der Mann hört Musik </tspan></tspan><tspan x="0" y="25.87">( wo steht Das Subjekts im satz)</tspan><tspan x="0" y="51.74">Der Mann = Nominativ</tspan></text>
+  <text class="cls-21" transform="translate(33.07 637.25)"><tspan class="cls-16"><tspan x="0" y="0">In Nominativ wir fragen nach den weisen : Wir </tspan></tspan><tspan x="0" y="25.87">Wir hört Musik?</tspan><tspan x="0" y="51.74">Der Mann </tspan></text>
+  <text class="cls-21" transform="translate(419.05 637.25)"><tspan class="cls-16"><tspan x="0" y="0">Und über Die sache Die wir fragen: Was </tspan></tspan><tspan x="0" y="25.87">Die stadt ist groß</tspan><tspan x="0" y="51.74">Was ist groß ?</tspan></text>
+  <text class="cls-21" transform="translate(598.8 663.83)"><tspan x="0" y="0">Das Auto ist neu  </tspan><tspan x="0" y="25.87">Was ist neu?</tspan></text>
+  <text class="cls-21" transform="translate(296.38 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Die Frau liest Das Buch </tspan></tspan><tspan x="0" y="25.87">Die Frau = Nominativ</tspan></text>
+  <text class="cls-21" transform="translate(549.1 528.87)"><tspan class="cls-16"><tspan x="0" y="0">Das Kind kauft einen apfel </tspan></tspan><tspan x="0" y="25.87">Das kind = Nominativ</tspan></text>
+  <text class="cls-21" transform="translate(193.5 78.69)"><tspan x="0" y="0">==&gt;</tspan></text>
+  <rect class="cls-17" x="14.49" y="718.63" width="358.01" height="110.39"/>
+  <rect class="cls-14" x="14.49" y="606.59" width="752.34" height="101.18"/>
+  <text class="cls-21" transform="translate(21.91 740.32)"><tspan class="cls-12"><tspan x="0" y="0">Wir haben 5 verben immer mit Nominativ :</tspan></tspan><tspan class="cls-24" x="0" y="25.87">Sein </tspan><tspan x="37.11" y="25.87">/ </tspan><tspan class="cls-24" x="48.29" y="25.87">Werden </tspan><tspan x="113.76" y="25.87">/ </tspan><tspan class="cls-24" x="124.94" y="25.87">Scheinen </tspan><tspan x="201.3" y="25.87">/ </tspan><tspan class="cls-24" x="212.48" y="25.87">Heißen </tspan><tspan x="272.02" y="25.87">/ </tspan><tspan class="cls-24" x="283.2" y="25.87">Bleiben</tspan><tspan class="cls-12"><tspan x="0" y="51.74">Wenn wir diese Verben sehen,</tspan></tspan><tspan class="cls-12"><tspan x="0" y="77.61">kennen wir den Satz Nominativ</tspan></tspan></text>
+  <rect class="cls-18" x="377.66" y="718.63" width="701.94" height="89.42"/>
+  <text class="cls-22" transform="translate(384.97 739.7)"><tspan class="cls-10" x="0" y="0">eine Übung : was oder wir?</tspan><tspan class="cls-23" x="209.21" y="0"> </tspan></text>
+  <text class="cls-21" transform="translate(550.26 766.34)"><tspan x="0" y="0">-Hans ist verheiratet </tspan><tspan x="0" y="25.87" xml:space="preserve">              ist verheiratet?</tspan></text>
+  <text class="cls-21" transform="translate(384.97 766.34)"><tspan x="0" y="0">-Peter ist in berlin </tspan><tspan x="0" y="25.87" xml:space="preserve">              ist berlin ?</tspan></text>
+  <rect class="cls-18" x="377.66" y="814.27" width="643.1" height="117.46"/>
+  <text class="cls-11" transform="translate(384.97 834.98)"><tspan x="0" y="0">Eine Übung: Der/ Das / Die </tspan></text>
+  <text class="cls-21" transform="translate(384.97 861.62)"><tspan x="0" y="0" xml:space="preserve"> …… Bus kommt . / …….. Glas ist sehr lecker  / - Wo ist …….     Zeitung?</tspan></text>
+  <text class="cls-11" transform="translate(384.97 893.82)"><tspan x="0" y="0">Eine Übung: ein / ein/ eine :</tspan></text>
+  <text class="cls-21" transform="translate(384.97 920.46)"><tspan x="0" y="0" xml:space="preserve">Das ist …. Computer . / Das sind Studenten .  ……. Studenten kommen aus kanada</tspan></text>
+  <text class="cls-21" transform="translate(734.95 766.34)"><tspan x="0" y="0">-Die Uni ist in Bonn </tspan><tspan x="0" y="25.87" xml:space="preserve">            ist in Bonn ?</tspan></text>
+  <text class="cls-21" transform="translate(908.97 766.34)"><tspan x="0" y="0">-Die schule ist groß </tspan><tspan x="0" y="25.87" xml:space="preserve">               Ist groß?</tspan></text>
 </svg>
