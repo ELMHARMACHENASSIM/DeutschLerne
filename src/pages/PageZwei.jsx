@@ -17,16 +17,21 @@ const PageZwei = () => {
         }}
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px] ">
-          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px] lg:flex-row" >
-            <Link to={"/page1"} className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]" >
+          <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px] lg:flex-row">
+            <Link
+              to={"/page1"}
+              className="flex  items-center gap-[10px] bg-dark p-[10px] text-white border-black border-[2px] xs:p-[5px]"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
               <span>Buckstaben und Zahlen</span>
             </Link>
-            <Link to={"/page3"} className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]">
+            <Link
+              to={"/page3"}
+              className="flex  items-center gap-[10px] bg-yellow p-[10px] border-black border-[2px] xs:p-[5px]"
+            >
               {" "}
-              <span>Stammbaum</span>{" "}
-              <FontAwesomeIcon icon={faArrowRight} />
+              <span>Stammbaum</span> <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
           <div className="py-[20px] select-none">
@@ -37,13 +42,9 @@ const PageZwei = () => {
             </div>
             <div className="flex lg:justify-between lg:items-center lg:flex-row font-pR select-none xs:flex-col-reverse xs:gap-[20px]">
               <div className="flex-1">
-                <h1 className="lg:leading-[30px] xs:leading-[30px] xs:text-[20px]">
-                  Sich vorzustellen bedeutet, sich selbst einer Person oder
-                  einer Gruppe vorzustellen, meistens durch die Angabe des
-                  Namens, der Herkunft, des Wohnortes und des Berufs. Eine
-                  gelungene Selbstvorstellung hinterlässt einen positiven
-                  Eindruck, indem man freundlich, authentisch und selbstbewusst
-                  auftritt und klar und deutlich spricht.{" "}
+                <h1 className="  text-[30px]">
+                  Wie kann man sich vorstellen? Um sich vorzustellen, können wir
+                  einige Fragen beantworten. Zum Beispiel:
                 </h1>
               </div>
               <div className="lg:w-[400px] lg:h-{250px] xs:w-[100%] xs:h-[100%]">
@@ -170,10 +171,14 @@ const PageZwei = () => {
               </p>
             </details>
             <details className=" p-[15px] w-[100%] border-[2px] border-white">
-              <summary className="py-[15px]">Wie ist Ihre Telefonnummer ?</summary>
-              <p className="px-[25px] text-yellow">Meine Telefonnummer ist 0622444005 (zwei mal 2  / zwei mal 4 / zwei mal 0) </p>
+              <summary className="py-[15px]">
+                Wie ist Ihre Telefonnummer ?
+              </summary>
+              <p className="px-[25px] text-yellow">
+                Meine Telefonnummer ist 0622444005 (zwei mal 2 / zwei mal 4 /
+                zwei mal 0){" "}
+              </p>
             </details>
-         
           </div>
         </div>
       </div>

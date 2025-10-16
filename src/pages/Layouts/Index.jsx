@@ -8,12 +8,17 @@ import PageDrei from "../PageDrei";
 import PageVier from "../PageVier";
 import PageFunf from "../PageFunf";
 import PageSechs from "../PageSechs";
+import Presont from "../Presont";
 const routerDom = createBrowserRouter([
   {
     element: <Layout />,
     children: [
-      {
+       {
         path: "/",
+        element: <Presont />,
+      },
+      {
+        path: "/home",
         element: <HomePage />,
       },
       {

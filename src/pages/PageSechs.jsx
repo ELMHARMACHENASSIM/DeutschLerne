@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import bck from "../assets/img/bck.png";
 import pers from "../assets/img/pers.svg";
+import artikl from "../assets/img/aertikl.svg";
+import nomi from "../assets/img/nomi.svg";
 const PageSechs = () => {
   return (
     <>
@@ -17,7 +19,10 @@ const PageSechs = () => {
       >
         <div className="Mycontainer  py-[50px] font-pB text-[20px]">
           <div className="w-[100%] flex justify-between items-center xs:text-[15px] xs:flex-col xs:gap-[10px] lg:flex-row">
-            <Link to={"/page5"} className="flex  items-center gap-[10px] bg-red p-[10px] text-white border-black border-[2px] xs:p-[5px]">
+            <Link
+              to={"/page5"}
+              className="flex  items-center gap-[10px] bg-red p-[10px] text-white border-black border-[2px] xs:p-[5px]"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowLeft} />{" "}
               <span>Die Monate und Die wochen und Die Uhr</span>
@@ -32,8 +37,16 @@ const PageSechs = () => {
             </div>
           </div>
           <div>
-            <div className="bg-white lg:w-[800px] p-[20px] xs:w-[100%]">
-              <img src={pers} alt="" className="w-[100%]" />
+            <div className="bg-white p-[20px]">
+            <div className="lg:w-[100%]  xs:w-[100%] flex justify-between items-start gap-[20px]">
+                 <img src={artikl} alt="" className="w-[45%]" />
+              <img src={pers} alt="" className="w-[45%]" />
+            </div>
+              <div className="lg:w-[100%] p-[20px] xs:w-[100%] flex justify-between items-start gap-[20px]">
+                 <img src={artikl} alt="" className="w-[45%]" />
+              <img src={pers} alt="" className="w-[45%]" />
+            </div>
+            <div className=""> <img src={nomi} alt="" className="w-[50%]" /></div>
             </div>
           </div>
         </div>
