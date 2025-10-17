@@ -5,6 +5,7 @@ import bck from "../assets/img/bck.png";
 import pers from "../assets/img/pers.svg";
 import artikl from "../assets/img/aertikl.svg";
 import nomi from "../assets/img/nomi.svg";
+import akku from "../assets/img/akku.svg";
 const PageSechs = () => {
   return (
     <>
@@ -38,12 +39,16 @@ const PageSechs = () => {
           </div>
           <div>
             <div className="bg-white p-[20px]">
-            <div className="lg:w-[100%]  xs:w-[100%] flex justify-between items-start flex-col gap-[20px]">
-                 <img src={artikl} alt="" className="w-[100%]" />
-              <img src={pers} alt="" className="w-[100%]" />
-            </div>
-         
-            <div className=""> <img src={nomi} alt="" className="w-[100%]" /></div>
+              <div className="lg:w-[100%]  xs:w-[100%] flex justify-between items-start flex-col gap-[20px]">
+                <img src={artikl} alt="" className="w-[100%]" />
+                <img src={pers} alt="" className="w-[100%]" />
+              </div>
+              <div className="w-[100%] py-[20px]">
+                <img src={nomi} alt="" className="w-[100%]" />
+              </div>
+              <div className="w-[100%]  py-[20px]">
+                <img src={akku} alt="" className="w-[100%]" />
+              </div>
             </div>
           </div>
         </div>

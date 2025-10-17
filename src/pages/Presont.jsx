@@ -14,8 +14,8 @@ const Presont = () => {
         }}
       >
         <div className="Mycontainer  h-[100%] py-[50px]  text-[20px] flex justify-between items-center lg:flex-row xs:flex-col-reverse ">
-          <div className="text-white lg:w-[50%] xs:w-[100%] flex justify-start items-start flex-col gap-[20px] lg:p-[50px] xs:p-[20px]  ">
-            <p className="w-[100%]  font-pR text-[20px]">
+          <div className="text-white lg:w-[50%] xs:w-[100%] h-[100%] flex justify-center items-start flex-col gap-[20px] lg:p-[50px] xs:p-[20px]  ">
+            <p className="w-[100%]  font-pR lg:text-[25px] xs:text-[15px]  ">
               Hallo zusammen ich bin froh heute zu sein .Danke an meine lehrerin
               und meine freunde für ihre Anwesenkit Also heute spreche ich über
               dir deutsh shprakhe wir si wissen Deutch ist eine sehr wichtige
