@@ -52,7 +52,7 @@ const PageEin = () => {
                 Das deutsche Alphabet besteht aus 26 Buchstaben, 3 Umlauten (Ä,
                 Ö, Ü) und einer Ligatur (ß). Bitte lass dich nicht durch unsere
                 speziellen Buchstaben ä, ö, ü und ß verwirren.
-                <div className="py-[25px]  text-[25px] font-pB xs:text-[16px]">
+                <div className="py-[25px]  lg:text-[30px] font-pB xs:text-[16px]">
                   Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo,
                   Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz,{" "}
                   <span className="text-red">Ää, Öö, Üü, ß</span>

@@ -62,12 +62,12 @@ const PageFunf = () => {
                   <div className="py-[15px]">
                     {" "}
                     <h1 className="text-[25px]">Wie viel Uhr ist es?</h1>
-                    <p className="text-red font-pB">Es ist halb dre</p>
+                    <p className="text-red font-pB">Es ist halb drei</p>
                   </div>
                   <div className="py-[15px]">
                     {" "}
                     <h1 className="text-[25px]">Haben Sie die Uhrzeit?</h1>
-                    <p className="text-red font-pB">Es ist kurz nach vie</p>
+                    <p className="text-red font-pB">Es ist kurz nach vier</p>
                   </div>
                   <div className="py-[15px]">
                     {" "}

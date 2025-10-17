@@ -47,7 +47,7 @@ const PageZwei = () => {
                   einige Fragen beantworten. Zum Beispiel:
                 </h1>
               </div>
-              <div className="lg:w-[400px] lg:h-{250px] xs:w-[100%] xs:h-[100%]">
+              <div className="lg:w-[600px] lg:h-{250px] xs:w-[100%] xs:h-[100%]">
                 <img
                   src={img4}
                   alt=""
