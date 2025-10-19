@@ -2,7 +2,6 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router";
 import fam from "../assets/img/fam.svg";
-import stamm from "../assets/img/stamm.svg";
 import bck from "../assets/img/bck.png";
 const PageDrei = () => {
   return (
@@ -41,7 +40,6 @@ const PageDrei = () => {
                 <img src={fam} alt="" className="w-[100%] h-[auto]" />
               </div>
                  <div className="lg:w-[60%] h-[auto] bg-white p-[20px] xs:w-[100%]">
-                <img src={stamm} alt="" className="w-[100%] h-[auto]" />
               </div>
             </div>
           </div>
